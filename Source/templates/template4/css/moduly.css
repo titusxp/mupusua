@@ -1,0 +1,2090 @@
+
+/*  Copyright:  (C) 03.2008 joomla-best.com. All Rights Reserved.
+//  License:	Copyrighted Commercial Software 
+//  Website: 	http://www.joomla-best.com
+*/
+
+
+/* Modu³y standardowe */
+
+/* XHTML */
+ 	
+div.moduletable h3 {
+	font-family: Tahoma, Arial, Sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #dddddd;
+	line-height: 30px;
+	text-align: left;
+	/*text-transform: uppercase;*/
+}
+
+div.moduletable_menu h3,
+div.moduletable h3 {
+	margin: 0 0 5px;
+	padding: 0;	
+}
+
+div.moduletable_menu,
+div.moduletable {
+	margin: 0;
+	border: 0px solid #f0f0f0;
+	color: #666666;
+} 	
+
+div.moduletable { 
+	padding: 15px;
+	margin-bottom: 10px;
+	font-size: 11px;
+}
+
+div.moduletable a { 
+	color: #cccccc;
+}
+
+div.moduletable a:hover { 
+	color: #dddddd;
+}
+
+div.moduletable td,
+div.moduletable p,
+div.moduletable div {
+	font-size: 11px;
+}
+		
+div.moduletable-nobox { 
+	border: none;
+	color: #333333;
+	padding: 0px;
+	margin-bottom: 10px;
+	background: none;
+}
+	
+div.moduletable-nobox img {
+	margin: 0;
+}
+
+/* Rounded */
+
+div.module h3,
+div.module_menu h3,
+div.module_text h3
+ {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #dddddd;
+	font-size: 14px;
+	font-weight: bold;
+	margin: -18px -6px 6px -24px;
+	padding-left: 25px;
+	line-height: 30px;
+	text-align:left;
+}
+	
+
+div.module a,
+div.module_menu a,
+div.module_text a {
+	color: #777777;
+	text-decoration: underline;
+}
+
+div.module_menu a:hover,
+div.module a:hover,
+div.module_text a:hover {
+	text-decoration: underline;
+	color: #666666;
+}
+
+div.module_menu a:active,
+div.module_text a:active,
+div.module a:active {
+	text-decoration: underline;
+	color: #777777;
+}
+
+div.module_menu a:focus,
+div.module a:focus,
+div.module_text a:focus {
+	text-decoration: underline;
+	color: #777777;
+}
+
+div.module li,
+div.module_menu li,
+div.module_text li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+
+div.module li a,
+div.module_menu li a,
+div.module_text li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: #666666;
+	width: 90%;
+	display: block;
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+}
+
+div.module li a:hover,
+div.module_menu li a:hover,
+div.module_text li a:hover {
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+	color: #777777;
+}
+
+div.module li a:active,
+div.module_menu li a:active,
+div.module_text li a:active {
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+	color: #666666;
+}
+
+div.module_menu li a:focus,
+div.module li a:focus,
+div.module_text li a:focus {
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+	color: #666666;
+}
+
+
+div.module,
+div.module_text,
+div.module_menu {
+	background: url(../images/moduly/box-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align:left;
+	font-size: 11px;
+	text-align: left;
+	color: #666666;
+}
+
+div.module div,
+div.module_text div,
+div.module_menu div {
+	background: url(../images/moduly/box-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module_text div div, 
+div.module_menu div div, 
+div.module div div {
+	background: url(../images/moduly/box-bl.gif) bottom left no-repeat;
+}
+
+div.module div div div,
+div.module_menu div div div,
+div.module_text div div div {
+	background: url(../images/moduly/box-br.gif) bottom right no-repeat;
+	padding: 20px 10px 20px 10px;
+	width: auto !important;
+}
+
+/* Modu³ Menu */
+
+div.module-menu h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -26px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 40px;
+	text-align: left;
+}
+
+div.module-menu a {
+	color: #777777;
+	text-decoration: underline;
+}
+
+div.module-menu a:hover,
+div.module-menu a:active,
+div.module-menu a:focus {
+	text-decoration: underline;
+	color: #111111;
+}
+
+div.module-menu li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-menu li a {
+	padding-left: 14px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: #111111;
+	width: 90%;
+	display: block;
+	background: #fbfcfb url(../images/circlegr.gif) no-repeat center left;
+	text-decoration: none;
+	border-bottom: 1px solid #eeeeee;
+}
+
+div.module-menu li a:hover,
+div.module-menu li a:active,
+div.module-menu li a:focus {
+	background: url(../images/circlebl.gif) no-repeat center left;
+	text-decoration: none;
+	border-bottom: 1px solid #eeeeee;
+	color: #777777;
+}
+
+div.module-menu {
+	background: url(../images/moduly/boxm5-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #111111;
+}
+
+div.module-menu div {
+	background: url(../images/moduly/boxm5-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-menu div div {
+	background: url(../images/moduly/boxm5-bl.gif) bottom left no-repeat;
+}
+
+div.module-menu div div div {
+	background: url(../images/moduly/boxm5-br.gif) bottom right no-repeat;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: auto !important;
+}
+
+/* Modu³ bg ( background black) */
+
+div.module-bg h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #111111;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -18px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 30px;
+	text-align:left;
+}
+
+div.module-bg a {
+	color: #111111;
+	text-decoration: underline;
+}
+
+div.module-bg a:hover,
+div.module-bg a:active,
+div.module-bg a:focus {
+	text-decoration: underline;
+	color: #64cae3;
+}
+
+div.module-bg li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-bg li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #111111;
+	width: 90%;
+	display: block;
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+}
+
+div.module-bg li a:hover,
+div.module-bg li a:active,
+div.module-bg li a:focus {
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+	color: #64cae3;
+}
+
+div.module-bg {
+	background: url(../images/moduly/boxt1-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #222222;
+}
+
+div.module-bg div {
+	background: url(../images/moduly/boxt1-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-bg div div {
+	background: url(../images/moduly/boxt1-bl.gif) bottom left no-repeat;
+}
+
+div.module-bg div div div {
+	background: url(../images/moduly/boxt1-br.gif) bottom right no-repeat;
+	padding: 20px;
+	width: auto;
+}
+
+/* Modu³ Menu1 */
+
+div.module-menu1 h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -26px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 40px;
+	text-align: left;
+}
+
+div.module-menu1 a {
+	color: #cd011e;
+	text-decoration: underline;
+}
+
+div.module-menu1 a:hover,
+div.module-menu1 a:active,
+div.module-menu1 a:focus {
+	text-decoration: underline;
+	color: #111111;
+}
+
+div.module-menu1 li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-menu1 li a {
+	padding-left: 14px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: #111111;
+	width: 90%;
+	display: block;
+	background: #fbfcfb url(../images/circler.gif) no-repeat center left;
+	text-decoration: none;
+	border-bottom: 1px solid #eeeeee;
+}
+
+div.module-menu1 li a:hover,
+div.module-menu1 li a:active,
+div.module-menu1 li a:focus {
+	background: url(../images/circler.gif) no-repeat center left;
+	text-decoration: none;
+	border-bottom: 1px solid #eeeeee;
+	color: #cd011e;
+}
+
+div.module-menu1 {
+	background: url(../images/moduly/boxm1-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #111111;
+}
+
+div.module-menu1 div {
+	background: url(../images/moduly/boxm1-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-menu1 div div {
+	background: url(../images/moduly/boxm1-bl.gif) bottom left no-repeat;
+}
+
+div.module-menu1 div div div {
+	background: url(../images/moduly/boxm1-br.gif) bottom right no-repeat;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: auto !important;
+}
+
+
+/* Modu³ Menu2 */
+
+div.module-menu2 h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -26px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 40px;
+	text-align: left;
+}
+
+div.module-menu2 a {
+	color: #21aed2;
+	text-decoration: underline;
+}
+
+div.module-menu2 a:hover,
+div.module-menu2 a:active,
+div.module-menu2 a:focus {
+	text-decoration: underline;
+	color: #111111;
+}
+
+div.module-menu2 li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-menu2 li a {
+	padding-left: 14px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: #111111;
+	width: 90%;
+	display: block;
+	background: #fbfcfb url(../images/circleb.gif) no-repeat center left;
+	text-decoration: none;
+	border-bottom: 1px solid #eeeeee;
+}
+
+div.module-menu2 li a:hover,
+div.module-menu2 li a:active,
+div.module-menu2 li a:focus {
+	background: url(../images/circleb.gif) no-repeat center left;
+	text-decoration: none;
+	border-bottom: 1px solid #eeeeee;
+	color: #21aed2;
+}
+
+div.module-menu2 {
+	background: url(../images/moduly/boxm2-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #111111;
+}
+
+div.module-menu2 div {
+	background: url(../images/moduly/boxm2-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-menu2 div div {
+	background: url(../images/moduly/boxm2-bl.gif) bottom left no-repeat;
+}
+
+div.module-menu2 div div div {
+	background: url(../images/moduly/boxm2-br.gif) bottom right no-repeat;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: auto !important;
+}
+
+/* Modu³ Menu3 */
+
+div.module-menu3 h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -26px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 40px;
+	text-align: left;
+}
+
+div.module-menu3 a {
+	color: #5eb325;
+	text-decoration: underline;
+}
+
+div.module-menu3 a:hover,
+div.module-menu3 a:active,
+div.module-menu3 a:focus {
+	text-decoration: underline;
+	color: #111111;
+}
+
+div.module-menu3 li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-menu3 li a {
+	padding-left: 14px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: #111111;
+	width: 90%;
+	display: block;
+	background: #fbfcfb url(../images/circleg.gif) no-repeat center left;
+	text-decoration: none;
+	border-bottom: 1px solid #eeeeee;
+}
+
+div.module-menu3 li a:hover,
+div.module-menu3 li a:active,
+div.module-menu3 li a:focus {
+	background: url(../images/circleg.gif) no-repeat center left;
+	text-decoration: none;
+	border-bottom: 1px solid #eeeeee;
+	color: #5eb325;
+}
+
+div.module-menu3 {
+	background: url(../images/moduly/boxm3-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #111111;
+}
+
+div.module-menu3 div {
+	background: url(../images/moduly/boxm3-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-menu3 div div {
+	background: url(../images/moduly/boxm3-bl.gif) bottom left no-repeat;
+}
+
+div.module-menu3 div div div {
+	background: url(../images/moduly/boxm3-br.gif) bottom right no-repeat;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: auto !important;
+}
+
+/* Modu³ Menu4 */
+
+div.module-menu4 h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -26px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 40px;
+	text-align: left;
+}
+
+div.module-menu4 a {
+	color: #999999;
+	text-decoration: underline;
+}
+
+div.module-menu4 a:hover,
+div.module-menu4 a:active,
+div.module-menu4 a:focus {
+	text-decoration: underline;
+	color: #111111;
+}
+
+div.module-menu4 li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-menu4 li a {
+	padding-left: 14px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: #111111;
+	width: 90%;
+	display: block;
+	background: #fbfcfb url(../images/circlegr.gif) no-repeat center left;
+	text-decoration: none;
+	border-bottom: 1px solid #eeeeee;
+}
+
+div.module-menu4 li a:hover,
+div.module-menu4 li a:active,
+div.module-menu4 li a:focus {
+	background: url(../images/circlegr.gif) no-repeat center left;
+	text-decoration: none;
+	border-bottom: 1px solid #eeeeee;
+	color: #999999;
+}
+
+div.module-menu4 {
+	background: url(../images/moduly/boxm4-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #111111;
+}
+
+div.module-menu4 div {
+	background: url(../images/moduly/boxm4-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-menu4 div div {
+	background: url(../images/moduly/boxm4-bl.gif) bottom left no-repeat;
+}
+
+div.module-menu4 div div div {
+	background: url(../images/moduly/boxm4-br.gif) bottom right no-repeat;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: auto !important;
+}
+
+/* Modu³ Menu5 */
+
+div.module-menu5 h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -26px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 40px;
+	text-align: left;
+}
+
+div.module-menu5 a {
+	color: #999999;
+	text-decoration: underline;
+}
+
+div.module-menu5 a:hover,
+div.module-menu5 a:active,
+div.module-menu5 a:focus {
+	text-decoration: underline;
+	color: #111111;
+}
+
+div.module-menu5 li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-menu5 li a {
+	padding-left: 14px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: #777777;
+	width: 90%;
+	display: block;
+	background: #fbfcfb url(../images/circlegr.gif) no-repeat center left;
+	text-decoration: none;
+	border-bottom: 1px solid #eeeeee;
+}
+
+div.module-menu5 li a:hover,
+div.module-menu5 li a:active,
+div.module-menu5 li a:focus {
+	background: url(../images/circlegr.gif) no-repeat center left;
+	text-decoration: none;
+	border-bottom: 1px solid #eeeeee;
+	color: #111111;
+}
+
+div.module-menu5 {
+	background: url(../images/moduly/boxm5-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #111111;
+}
+
+div.module-menu5 div {
+	background: url(../images/moduly/boxm5-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-menu5 div div {
+	background: url(../images/moduly/boxm5-bl.gif) bottom left no-repeat;
+}
+
+div.module-menu5 div div div {
+	background: url(../images/moduly/boxm5-br.gif) bottom right no-repeat;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: auto !important;
+}
+
+
+/* Modu³ bg1 */
+
+div.module-bg1 h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -18px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 30px;
+	text-align:left;
+}
+
+div.module-bg1 a {
+	color: #c73434;
+	text-decoration: underline;
+}
+
+div.module-bg1 a:hover,
+div.module-bg1 a:active,
+div.module-bg1 a:focus {
+	text-decoration: underline;
+	color: #111111;
+}
+
+div.module-bg1 li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-bg1 li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #ffffff;
+	width: 90%;
+	display: block;
+	background: url(../images/arrowb.gif) no-repeat center left;
+	text-decoration: none;
+}
+
+div.module-bg1 li a:hover,
+div.module-bg1 li a:active,
+div.module-bg1 li a:focus {
+	background: url(../images/arrowb.gif) no-repeat center left;
+	text-decoration: none;
+	color: #c73434;
+}
+
+div.module-bg1 {
+	background: url(../images/moduly/boxb1-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #ffffff;
+}
+
+div.module-bg1 div {
+	background: url(../images/moduly/boxb1-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-bg1 div div {
+	background: url(../images/moduly/boxb1-bl.gif) bottom left no-repeat;
+}
+
+div.module-bg1 div div div {
+	background: url(../images/moduly/boxb1-br.gif) bottom right no-repeat;
+	padding: 20px;
+	width: auto;
+}
+
+/* Modu³ bg1b ( background black) */
+
+div.module-bg1b h3 {
+	background: url(../images/1arrowz.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #111111;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -18px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 30px;
+	text-align:left;
+}
+
+div.module-bg1b a {
+	color: #111111;
+	text-decoration: underline;
+}
+
+div.module-bg1b a:hover,
+div.module-bg1b a:active,
+div.module-bg1b a:focus {
+	text-decoration: underline;
+	color: #c73434;
+}
+
+div.module-bg1b li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-bg1b li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #111111;
+	width: 90%;
+	display: block;
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+}
+
+div.module-bg1b li a:hover,
+div.module-bg1b li a:active,
+div.module-bg1b li a:focus {
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+	color: #c73434;
+}
+
+div.module-bg1b {
+	background: url(../images/moduly/boxl-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #111111;
+}
+
+div.module-bg1b div {
+	background: url(../images/moduly/boxl-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-bg1b div div {
+	background: url(../images/moduly/boxl-bl.gif) bottom left no-repeat;
+}
+
+div.module-bg1b div div div {
+	background: url(../images/moduly/boxl-br.gif) bottom right no-repeat;
+	padding: 20px;
+	width: auto;
+}
+
+/* Modu³ bg2 */
+
+div.module-bg2 h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -18px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 30px;
+	text-align:left;
+}
+
+div.module-bg2 a {
+	color: #64cae3;
+	text-decoration: underline;
+}
+
+div.module-bg2 a:hover,
+div.module-bg2 a:active,
+div.module-bg2 a:focus {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+div.module-bg2 li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-bg2 li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #ffffff;
+	width: 90%;
+	display: block;
+	background: url(../images/arrowb.gif) no-repeat center left;
+	text-decoration: none;
+}
+
+div.module-bg2 li a:hover,
+div.module-bg2 li a:active,
+div.module-bg2 li a:focus {
+	background: url(../images/arrowb.gif) no-repeat center left;
+	text-decoration: none;
+	color: #64cae3;
+}
+
+div.module-bg2 {
+	background: url(../images/moduly/boxb2-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #ffffff;
+}
+
+div.module-bg2 div {
+	background: url(../images/moduly/boxb2-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-bg2 div div {
+	background: url(../images/moduly/boxb2-bl.gif) bottom left no-repeat;
+}
+
+div.module-bg2 div div div {
+	background: url(../images/moduly/boxb2-br.gif) bottom right no-repeat;
+	padding: 20px;
+	width: auto;
+}
+
+
+/* Modu³ bg2b ( background black) */
+
+div.module-bg2b h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #222222;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -18px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 30px;
+	text-align:left;
+}
+
+div.module-bg2b a {
+	color: #111111;
+	text-decoration: underline;
+}
+
+div.module-bg2b a:hover,
+div.module-bg2b a:active,
+div.module-bg2b a:focus {
+	text-decoration: underline;
+	color: #64cae3;
+}
+
+div.module-bg2b li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-bg2b li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #111111;
+	width: 90%;
+	display: block;
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+}
+
+div.module-bg2b li a:hover,
+div.module-bg2b li a:active,
+div.module-bg2b li a:focus {
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+	color: #64cae3;
+}
+
+div.module-bg2b {
+	background: url(../images/moduly/boxt1-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #222222;
+}
+
+div.module-bg2b div {
+	background: url(../images/moduly/boxt1-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-bg2b div div {
+	background: url(../images/moduly/boxt1-bl.gif) bottom left no-repeat;
+}
+
+div.module-bg2b div div div {
+	background: url(../images/moduly/boxt1-br.gif) bottom right no-repeat;
+	padding: 20px;
+	width: auto;
+}
+
+/* Modu³ bg3 */
+
+div.module-bg3 h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -18px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 30px;
+	text-align:left;
+}
+
+div.module-bg3 a {
+	color: #8edc5a;
+	text-decoration: underline;
+}
+
+div.module-bg3 a:hover,
+div.module-bg3 a:active,
+div.module-bg3 a:focus {
+	text-decoration: underline;
+	color: #111111;
+}
+
+div.module-bg3 li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-bg3 li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #ffffff;
+	width: 90%;
+	display: block;
+	background: url(../images/arrowb.gif) no-repeat center left;
+	text-decoration: none;
+}
+
+div.module-bg3 li a:hover,
+div.module-bg3 li a:active,
+div.module-bg3 li a:focus {
+	background: url(../images/arrowb.gif) no-repeat center left;
+	text-decoration: none;
+	color: #8edc5a;
+}
+
+div.module-bg3 {
+	background: url(../images/moduly/boxb3-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #ffffff;
+}
+
+div.module-bg3 div {
+	background: url(../images/moduly/boxb3-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-bg3 div div {
+	background: url(../images/moduly/boxb3-bl.gif) bottom left no-repeat;
+}
+
+div.module-bg3 div div div {
+	background: url(../images/moduly/boxb3-br.gif) bottom right no-repeat;
+	padding: 20px;
+	width: auto;
+}
+
+/* Modu³ bg3b ( background black) */
+
+div.module-bg3b h3 {
+	background: url(../images/1arrowz.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #222222;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -18px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 30px;
+	text-align:left;
+}
+
+div.module-bg3b a {
+	color: #111111;
+	text-decoration: underline;
+}
+
+div.module-bg3b a:hover,
+div.module-bg3b a:active,
+div.module-bg3b a:focus {
+	text-decoration: underline;
+	color: #8edc5a;
+}
+
+div.module-bg3b li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-bg3b li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #111111;
+	width: 90%;
+	display: block;
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+}
+
+div.module-bg3b li a:hover,
+div.module-bg3b li a:active,
+div.module-bg3b li a:focus {
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+	color: #8edc5a;
+}
+
+div.module-bg3b {
+	background: url(../images/moduly/boxl3-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align:left;
+	color: #222222;
+}
+
+div.module-bg3b div {
+	background: url(../images/moduly/boxl3-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-bg3b div div {
+	background: url(../images/moduly/boxl3-bl.gif) bottom left no-repeat;
+}
+
+div.module-bg3b div div div {
+	background: url(../images/moduly/boxl3-br.gif) bottom right no-repeat;
+	padding: 20px;
+	width: auto !important;
+}
+
+
+
+/* Modu³ bg4 */
+
+div.module-bg4 h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -18px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 30px;
+	text-align:left;
+}
+
+div.module-bg4 a {
+	color: #444444;
+	text-decoration: underline;
+}
+
+div.module-bg4 a:hover,
+div.module-bg4 a:active,
+div.module-bg4 a:focus {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+div.module-bg4 li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-bg4 li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #ffffff;
+	width: 90%;
+	display: block;
+	background: url(../images/arrowb.gif) no-repeat center left;
+	text-decoration: none;
+}
+
+div.module-bg4 li a:hover,
+div.module-bg4 li a:active,
+div.module-bg4 li a:focus {
+	background: url(../images/arrowb.gif) no-repeat center left;
+	text-decoration: none;
+	color: #444444;
+}
+
+div.module-bg4 {
+	background: url(../images/moduly/boxb4-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #ffffff;
+}
+
+div.module-bg4 div {
+	background: url(../images/moduly/boxb4-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-bg4 div div {
+	background: url(../images/moduly/boxb4-bl.gif) bottom left no-repeat;
+}
+
+div.module-bg4 div div div {
+	background: url(../images/moduly/boxb4-br.gif) bottom right no-repeat;
+	padding: 20px;
+	width: auto;
+}
+
+/* Modu³ bg4b ( background black) */
+
+div.module-bg4b h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -18px -6px 6px -6px;
+	padding-left: 25px;
+	line-height: 30px;
+	text-align:left;
+}
+
+div.module-bg4b a {
+	color: #555555;
+	text-decoration: underline;
+}
+
+div.module-bg4b a:hover,
+div.module-bg4b a:active,
+div.module-bg4b a:focus {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+div.module-bg4b li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-bg4b li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #555555;
+	width: 90%;
+	display: block;
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+}
+
+div.module-bg4b li a:hover,
+div.module-bg4b li a:active,
+div.module-bg4b li a:focus {
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+	color: #cccccc;
+}
+
+div.module-bg4b {
+	background: url(../images/moduly/boxx1-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #444444;
+}
+
+div.module-bg4b div {
+	background: url(../images/moduly/boxx1-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-bg4b div div {
+	background: url(../images/moduly/boxx1-bl.gif) bottom left no-repeat;
+}
+
+div.module-bg4b div div div {
+	background: url(../images/moduly/boxx1-br.gif) bottom right no-repeat;
+	padding: 20px;
+	width: auto;
+}
+
+/* Modu³ bg5 */
+
+div.module-bg5 h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -18px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 30px;
+	text-align:left;
+}
+
+div.module-bg5 a {
+	color: #999999;
+	text-decoration: underline;
+}
+
+div.module-bg5 a:hover,
+div.module-bg5 a:active,
+div.module-bg5 a:focus {
+	text-decoration: underline;
+	color: #333333;
+}
+
+div.module-bg5 li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-bg5 li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #777777;
+	width: 90%;
+	display: block;
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+}
+
+div.module-bg5 li a:hover,
+div.module-bg5 li a:active,
+div.module-bg5 li a:focus {
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+	color: #999999;
+}
+
+div.module-bg5 {
+	background: url(../images/moduly/boxb5-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #333333;
+}
+
+div.module-bg5 div {
+	background: url(../images/moduly/boxb5-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-bg5 div div {
+	background: url(../images/moduly/boxb5-bl.gif) bottom left no-repeat;
+}
+
+div.module-bg5 div div div {
+	background: url(../images/moduly/boxb5-br.gif) bottom right no-repeat;
+	padding: 20px;
+	width: auto;
+}
+
+/* Modu³ bg5b ( background black ) */
+
+div.module-bg5b h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #111111;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -18px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 30px;
+	text-align:left;
+}
+
+div.module-bg5b a {
+	color: #111111;
+	text-decoration: underline;
+}
+
+div.module-bg5b a:hover,
+div.module-bg5b a:active,
+div.module-bg5b a:focus {
+	text-decoration: underline;
+	color: #999999;
+}
+
+div.module-bg5b li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-bg5b li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #111111;
+	width: 90%;
+	display: block;
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+}
+
+div.module-bg5b li a:hover,
+div.module-bg5b li a:active,
+div.module-bg5b li a:focus {
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+	color: #999999;
+}
+
+div.module-bg5b {
+	background: url(../images/moduly/boxb5b-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #111111;
+}
+
+div.module-bg5b div {
+	background: url(../images/moduly/boxb5b-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-bg5b div div {
+	background: url(../images/moduly/boxb5b-bl.gif) bottom left no-repeat;
+}
+
+div.module-bg5b div div div {
+	background: url(../images/moduly/boxb5b-br.gif) bottom right no-repeat;
+	padding: 20px;
+	width: auto;
+}
+
+/* Modu³ bg6 */
+
+div.module-bg6 h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #111111;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -18px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 30px;
+	text-align:left;
+}
+
+div.module-bg6 a {
+	color: #999999;
+	text-decoration: underline;
+}
+
+div.module-bg6 a:hover,
+div.module-bg6 a:active,
+div.module-bg6 a:focus {
+	text-decoration: underline;
+	color: #111111;
+}
+
+div.module-bg6 li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-bg6 li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #111111;
+	width: 90%;
+	display: block;
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+}
+
+div.module-bg6 li a:hover,
+div.module-bg6 li a:active,
+div.module-bg6 li a:focus {
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+	color: #999999;
+}
+
+div.module-bg6 {
+	background: url(../images/moduly/box-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #111111;
+}
+
+div.module-bg6 div {
+	background: url(../images/moduly/box-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-bg6 div div {
+	background: url(../images/moduly/box-bl.gif) bottom left no-repeat;
+}
+
+div.module-bg6 div div div {
+	background: url(../images/moduly/box-br.gif) bottom right no-repeat;
+	padding: 20px;
+	width: auto;
+}
+
+
+/* Modu³ Nobox */
+
+div.module-nobox h3 {
+	background:url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #333333;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -26px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 40px;
+	text-align: left;
+}
+
+div.module-nobox a {
+	color: #777777;
+	text-decoration: underline;
+}
+
+div.module-nobox a:hover,
+div.module-nobox a:active,
+div.module-nobox a:focus {
+	text-decoration: underline;
+	color: #111111;
+}
+
+div.module-nobox li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-nobox li a {
+	padding-left: 14px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: #111111;
+	width: 90%;
+	display: block;
+	background: url(../images/circlegr.gif) no-repeat center left;
+	text-decoration: none;
+}
+
+div.module-nobox li a:hover,
+div.module-nobox li a:active,
+div.module-nobox li a:focus {
+	background: url(../images/circlebl.gif) no-repeat center left;
+	text-decoration: none;
+	color: #777777;
+}
+
+div.module-nobox {
+	background: none;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #111111;
+}
+
+div.module-nobox div {
+	background: none;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-nobox div div {
+	background: none;
+}
+
+div.module-nobox div div div {
+	background: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: auto !important;
+}
+
+
+
+
+div.module ul {
+	margin: 10px 0;
+	padding-left: 20px;
+}
+
+div.module div div div div,
+div.module div div div div div,
+div.module div div div div div div,
+div.module div div div div div div div,
+div.module div div div div div div div div,
+div.module div div div div div div div div div,
+div.module div div div div div div div div div div,
+
+div.module-menu div div div div,
+div.module-menu div div div div div,
+div.module-menu div div div div div div,
+div.module-menu div div div div div div div,
+div.module-menu div div div div div div div div,
+div.module-menu div div div div div div div div div,
+div.module-menu div div div div div div div div div div,
+
+div.module-menu1 div div div div,
+div.module-menu1 div div div div div,
+div.module-menu1 div div div div div div,
+div.module-menu1 div div div div div div div,
+div.module-menu1 div div div div div div div div,
+div.module-menu1 div div div div div div div div div,
+div.module-menu1 div div div div div div div div div div,
+
+div.module-menu4 div div div div,
+div.module-menu4 div div div div div,
+div.module-menu4 div div div div div div,
+div.module-menu4 div div div div div div div,
+div.module-menu4 div div div div div div div div,
+div.module-menu4 div div div div div div div div div,
+div.module-menu4 div div div div div div div div div div,
+
+div.module-menu3 div div div div,
+div.module-menu3 div div div div div,
+div.module-menu3 div div div div div div,
+div.module-menu3 div div div div div div div,
+div.module-menu3 div div div div div div div div,
+div.module-menu3 div div div div div div div div div,
+div.module-menu3 div div div div div div div div div div,
+
+div.module-bg2 div div div div,
+div.module-bg2 div div div div div,
+div.module-bg2 div div div div div div,
+div.module-bg2 div div div div div div div,
+div.module-bg2 div div div div div div div div,
+div.module-bg2 div div div div div div div div div,
+div.module-bg2 div div div div div div div div div div,
+
+div.module-bg3 div div div div,
+div.module-bg3 div div div div div,
+div.module-bg3 div div div div div div,
+div.module-bg3 div div div div div div div,
+div.module-bg3 div div div div div div div div,
+div.module-bg3 div div div div div div div div div,
+div.module-bg3 div div div div div div div div div div,
+
+div.module-bg4 div div div div,
+div.module-bg4 div div div div div,
+div.module-bg4 div div div div div div,
+div.module-bg4 div div div div div div div,
+div.module-bg4 div div div div div div div div,
+div.module-bg4 div div div div div div div div div,
+div.module-bg4 div div div div div div div div div div,
+
+div.module-bg5 div div div div,
+div.module-bg5 div div div div div,
+div.module-bg5 div div div div div div,
+div.module-bg5 div div div div div div div,
+div.module-bg5 div div div div div div div div,
+div.module-bg5 div div div div div div div div div,
+div.module-bg5 div div div div div div div div div div,
+
+div.module-bg5b div div div div,
+div.module-bg5b div div div div div,
+div.module-bg5b div div div div div div,
+div.module-bg5b div div div div div div div,
+div.module-bg5b div div div div div div div div,
+div.module-bg5b div div div div div div div div div,
+div.module-bg5b div div div div div div div div div div,
+
+div.module-bg6 div div div div,
+div.module-bg6 div div div div div,
+div.module-bg6 div div div div div div,
+div.module-bg6 div div div div div div div,
+div.module-bg6 div div div div div div div div,
+div.module-bg6 div div div div div div div div div,
+div.module-bg6 div div div div div div div div div div,
+
+div.module-menu2 div div div div,
+div.module-menu2 div div div div div,
+div.module-menu2 div div div div div div,
+div.module-menu2 div div div div div div div,
+div.module-menu2 div div div div div div div div,
+div.module-menu2 div div div div div div div div div,
+div.module-menu2 div div div div div div div div div div,
+
+div.module-menu5 div div div div,
+div.module-menu5 div div div div div,
+div.module-menu5 div div div div div div,
+div.module-menu5 div div div div div div div,
+div.module-menu5 div div div div div div div div,
+div.module-menu5 div div div div div div div div div,
+div.module-menu5 div div div div div div div div div div,
+
+div.module_text div div div div,
+div.module_text div div div div div,
+div.module_text div div div div div div,
+div.module_text div div div div div div div,
+div.module_text div div div div div div div div,
+div.module_text div div div div div div div div div,
+div.module_text div div div div div div div div div div,
+
+div.module_menu div div div div,
+div.module_menu div div div div div,
+div.module_menu div div div div div div,
+div.module_menu div div div div div div div,
+div.module_menu div div div div div div div div,
+div.module_menu div div div div div div div div div,
+div.module_menu div div div div div div div div div div,
+
+div.module-bg1 div div div div,
+div.module-bg1 div div div div div,
+div.module-bg1 div div div div div div,
+div.module-bg1 div div div div div div div,
+div.module-bg1 div div div div div div div div,
+div.module-bg1 div div div div div div div div div,
+div.module-bg1 div div div div div div div div div div,
+
+div.module-bg div div div div,
+div.module-bg div div div div div,
+div.module-bg div div div div div div,
+div.module-bg div div div div div div div,
+div.module-bg div div div div div div div div,
+div.module-bg div div div div div div div div div,
+div.module-bg div div div div div div div div div div,
+
+div.module-bg1b div div div div,
+div.module-bg1b div div div div div,
+div.module-bg1b div div div div div div,
+div.module-bg1b div div div div div div div,
+div.module-bg1b div div div div div div div div,
+div.module-bg1b div div div div div div div div div,
+div.module-bg1b div div div div div div div div div div,
+
+div.module-bg3b div div div div,
+div.module-bg3b div div div div div,
+div.module-bg3b div div div div div div,
+div.module-bg3b div div div div div div div,
+div.module-bg3b div div div div div div div div,
+div.module-bg3b div div div div div div div div div,
+div.module-bg3b div div div div div div div div div div,
+
+div.module-bg4b div div div div,
+div.module-bg4b div div div div div,
+div.module-bg4b div div div div div div,
+div.module-bg4b div div div div div div div,
+div.module-bg4b div div div div div div div div,
+div.module-bg4b div div div div div div div div div,
+div.module-bg4b div div div div div div div div div div,
+
+div.module-bg2b div div div div,
+div.module-bg2b div div div div div,
+div.module-bg2b div div div div div div,
+div.module-bg2b div div div div div div div,
+div.module-bg2b div div div div div div div div,
+div.module-bg2b div div div div div div div div div,
+div.module-bg2b div div div div div div div div div div,
+
+div.module-nobox div div div div,
+div.module-nobox div div div div div,
+div.module-nobox div div div div div div,
+div.module-nobox div div div div div div div,
+div.module-nobox div div div div div div div div,
+div.module-nobox div div div div div div div div div,
+div.module-nobox div div div div div div div div div div {	
+	width: 100%;
+ 	padding: 0;
+	background: none;
+}
+	
+div.module td,
+div.module div, 
+div.module p,
+div.module span,
+
+div.module-menu td,
+div.module-menu div,
+div.module-menu p,
+div.module-menu span,
+
+div.module-menu1 td,
+div.module-menu1 div,
+div.module-menu1 p,
+div.module-menu1 span,
+
+div.module-menu4 td,
+div.module-menu4 div,
+div.module-menu4 p,
+div.module-menu4 span,
+
+div.module-menu3 td,
+div.module-menu3 div,
+div.module-menu3 p,
+div.module-menu3 span,
+
+div.module-bg2 td,
+div.module-bg2 div,
+div.module-bg2 p,
+div.module-bg2 span,
+
+div.module_menu td,
+div.module_menu div,
+div.module_menu p,
+div.module_menu span,
+
+div.module_text td,
+div.module_text div,
+div.module_text p,
+div.module_text span,
+
+div.module-bg1 td,
+div.module-bg1 div,
+div.module-bg1 p,
+div.module-bg1 span,
+
+div.module-bg td,
+div.module-bg div,
+div.module-bg p,
+div.module-bg span,
+
+div.module-bg3 td,
+div.module-bg3 div,
+div.module-bg3 p,
+div.module-bg3 span,
+
+div.module-bg4 td,
+div.module-bg4 div,
+div.module-bg4 p,
+div.module-bg4 span,
+
+div.module-bg5 td,
+div.module-bg5 div,
+div.module-bg5 p,
+div.module-bg5 span,
+
+div.module-bg5b td,
+div.module-bg5b div,
+div.module-bg5b p,
+div.module-bg5b span,
+
+div.module-menu5 td,
+div.module-menu5 div,
+div.module-menu5 p,
+div.module-menu5 span,
+
+div.module-bg6 td,
+div.module-bg6 div,
+div.module-bg6 p,
+div.module-bg6 span,
+
+div.module-menu2 td,
+div.module-menu2 div,
+div.module-menu2 p,
+div.module-menu2 span,
+
+div.module-bg2b td,
+div.module-bg2b div,
+div.module-bg2b p,
+div.module-bg2b span,
+
+div.module-bg4b td,
+div.module-bg4b div,
+div.module-bg4b p,
+div.module-bg4b span,
+
+div.module-bg1b td,
+div.module-bg1b div,
+div.module-bg1b p,
+div.module-bg1b span,
+
+div.module-bg3b td,
+div.module-bg3b div,
+div.module-bg3b p,
+div.module-bg3b span,
+
+div.module-nobox td,
+div.module-nobox div,
+div.module-nobox p,
+div.module-nobox span {
+ 	font-size: 11px;
+	text-align: left;
+}
+	
+div.module ul,
+div.module_menu ul,
+div.module_text ul,
+div.module-menu1 ul,
+div.module-menu ul,
+div.module-bg5 ul,
+div.module-bg ul,
+div.module-bg5b ul,
+div.module-menu4 ul,
+div.module-menu5 ul,
+div.module-menu3 ul,
+div.module-bg2 ul,
+div.module-nobox ul,
+div.module-bg3b ul,
+div.module-bg4b ul,
+div.module-bg1b ul,
+div.module-bg1 ul,
+div.module-bg3 ul,
+div.module-bg2b ul,
+div.module-bg4 ul,
+div.module-bg6 ul,
+div.module-menu2 ul { 
+	margin: 10px 0;
+	padding-left: 0px;
+}
+
+ul.latestnews,
+ul.mostread,
+ul.latestnews-menu1,
+ul.mostread-menu1,
+ul.latestnews-menu,
+ul.mostread-menu,
+ul.latestnews-nobox,
+ul.mostread-nobox,
+ul.latestnews-menu4,
+ul.mostread-menu4,
+ul.latestnews-menu5,
+ul.mostread-menu5,
+ul.latestnews-menu3,
+ul.mostread-menu3,
+ul.latestnews_menu,
+ul.mostread_menu,
+ul.latestnews_text,
+ul.mostread_text,
+ul.latestnews-bg2,
+ul.mostread-bg2,
+ul.latestnews-bg3,
+ul.mostread-bg3,
+ul.latestnews-bg4,
+ul.mostread-bg4,
+ul.latestnews-bg6,
+ul.mostread-bg6,
+ul.latestnews-menu2,
+ul.mostread-menu2,
+ul.latestnews-bg1,
+ul.mostread-bg1,
+ul.latestnews-bg,
+ul.mostread-bg,
+ul.latestnews-bg1b,
+ul.mostread-bg1b,
+ul.latestnews-bg3b,
+ul.mostread-bg3b,
+ul.latestnews-bg5,
+ul.mostread-bg5,
+ul.latestnews-bg5b,
+ul.mostread-bg5b,
+ul.latestnews-bg2b,
+ul.mostread-bg2b,
+ul.latestnews-bg4b,
+ul.mostread-bg4b {
+	margin-left: 10px;
+}

@@ -1,0 +1,49 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/*
+ * Custom Style Sheet - Use this file to style your content
+ */
+ 
+#page {
+	background:url(../images/mainbackground.jpg) repeat-x; background-attachment:fixed;
+	
+}
+
+#block-header {
+	background:url(../images/modpattern.jpg);
+
+}
+
+#sidebar-a, #sidebar-b {background:#181e2b;}
+#main {background:#1B2231;}
+
+#toolbar time, #toolbar a {color: #fff;}
+#toolbar { padding:5px;padding-left:10px;}
+
+#menubar {padding:5px; margin-left: 15px; margin-right:15px;}
+#block-footer {
+	background:url(../images/modpattern.jpg);
+	border-top:1px solid #2c374d;
+}
+#block-bottom {border-top:1px solid #2c374d;}
+
+#block-main {border-top:1px solid #1d1d1d;}
+#footer {color:#fff;}
+
+
+#footer a {color: #71c5ff;}
+#footer a:hover {color:#006ed5;}
+
+#block-top-a, #block-top-b, #block-bottom {background:#10141C;}
+
+#bottom-b {color:#ddd;}
+
+#block-top-a {border-top:1px solid #2c374d;}
+
+.breadcrumbs {font-size:10px;}
+
+#headerbar {color: #ffffff;}
+.dropdown-bg {color: #fff;}
+
+#logo p {margin:0;}
+

@@ -1,0 +1,15 @@
+.outline {
+  padding: 5px;
+}
+
+body {
+	margin: 15px;
+	padding: 0px;
+	font: 11px Tahoma, Arial;
+	color: #777777;
+	background: #ffffff;
+}
+
+h2 {
+	font-size: 14px;
+}

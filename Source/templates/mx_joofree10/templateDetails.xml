@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+
+<extension version="2.5" type="template" client="site">
+	<name>mx_joofree10</name>
+	<creationDate>2012</creationDate>
+	<author>mixwebtemplates.com</author>
+	<copyright>mixwebtemplates</copyright>
+	<authorEmail>support@mixwebtemplates.com</authorEmail>
+	<authorUrl>www.mixwebtemplates.com</authorUrl>
+	<version>1.0.1</version>
+	<description><![CDATA[
+<script src="../templates/mx_joofree10/admin/jscolor/jscolor.js" type="text/javascript"></script>
+<link rel="stylesheet" href="../templates/mx_joofree10/admin/params.css" type="text/css" />
+<h1>mixwebtemplates</h1>
+<p><img src="../templates/mx_joofree10/template_thumbnail.png" style="float:left;margin-bottom:10px;border:4px solid #ccc;padding:2px" /><p style="clear:left;margin:10px 0;font-size:110%;">Mx_joofree10 free Joomla template. For additional information visit the <a href="http://www.mixwebtemplates.com/">mixwebtemplates</a>.</p>
+<p> Updated files in version 1.0.1 are index.php and templateDetails.xml.</p> ]]></description>
+
+<files>
+	<folder>css</folder>
+	<folder>html</folder>
+	<folder>images</folder>
+	<folder>header</folder>
+	<folder>js</folder>
+	<folder>admin</folder>
+	<folder>language</folder>
+	<filename>index.php</filename>
+	<filename>index.html</filename>
+	<filename>favicon.ico</filename>
+	<filename>templateDetails.xml</filename>
+	<filename>template_preview.png</filename>
+	<filename>template_thumbnail.png</filename>
+	<filename>component.php</filename>
+	<filename>error.php</filename>
+	<filename>footer.php</filename>
+</files>
+
+<positions>	
+	<position>panel</position>
+	<position>logo</position>
+	<position>nav</position>
+	<position>search</position>
+	<position>breadcrumbs</position>
+	<position>bookmarks</position>
+	<position>top1</position>
+	<position>top2</position>
+	<position>top3</position>
+	<position>top4</position>
+	<position>user6</position>
+	<position>user7</position>
+	<position>user8</position>
+	<position>left</position>
+	<position>right</position>
+	<position>user9</position>
+	<position>user10</position>
+	<position>user11</position>
+	<position>bottom1</position>
+	<position>bottom2</position>
+	<position>bottom3</position>
+	<position>bottom4</position>
+	<position>footer1</position>
+	<position>footer2</position>
+	<position>footer3</position>
+	<position>footer4</position>
+	<position>nav-mobile</position>
+	<position>header-mobile</position>
+	<position>debug</position>
+</positions>
+
+<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_mx_joofree10.ini</language>
+</languages>
+
+	<config>
+		<fields name="params">
+			
+			<fieldset name="header"  description="" label="TPL_MXJOOMLA_PARAMS_HEADER">
+				<field name="slides" type="list" default="1" label="Slideshow" description="To only show the Slideshow on specific pages, select [Show only in header]. Create an empty module and assign it to header. Use this module to control which pages have header visible">
+				    <option value="1">Show on all pages</option>
+				    <option value="2">Show only in header</option>
+				    <option value="0">Hide</option>
+			    </field>
+
+				<field name="slideseffect" type="list" default="fade" label="Slideshow Effect" description="Please choose an effect for the slideshow">
+				    <option value="slide">Slide</option>
+				    <option value="fade">Fade</option>
+			    </field>			
+				<field name="slidesimage1" type="media" default="" label="Slider Image 1" description="Please choose an image..." />
+				<field name="slidescaption1" type="text" default="" label="Text info for Slider 1" description="Text info for Slider 1" />
+				<field name="slideslink1" type="text" default="" label="URL for Link to Slider 1" description="URL for Link to Slider 1" filter="string" />
+				
+				<field name="slidesimage2" type="media" default="" label="Slider Image 2" description="Please choose an image..." />
+				<field name="slidescaption2" type="text" default="" label="Text info for Slider 2" description="Text info for Slider 2" />
+				<field name="slideslink2" type="text" default="" label="URL for Link to Slider 2" description="URL for Link to Slider 2" filter="string" />
+
+				<field name="slidesimage3" type="media" default="" label="Slider Image 3" description="Please choose an image..." />
+				<field name="slidescaption3" type="text" default="" label="Text info for Slider 3" description="Text info for Slider 3" />
+				<field name="slideslink3" type="text" default="" label="URL for Link to Slider 3" description="URL for Link to Slider 3" filter="string" />
+
+				<field name="slidesimage4" type="media" default="" label="Slider Image 4" description="Please choose an image..." />
+				<field name="slidescaption4" type="text" default="" label="Text info for Slider 4" description="Text info for Slider 4" />
+				<field name="slideslink4" type="text" default="" label="URL for Link to Slider 4" description="URL for Link to Slider 4" filter="string" />
+
+				<field name="slidesimage5" type="media" default="" label="Slider Image 5" description="Please choose an image..." />
+				<field name="slidescaption5" type="text" default="" label="Text info for Slider 5" description="Text info for Slider 5" />
+				<field name="slideslink5" type="text" default="" label="URL for Link to Slider 5" description="URL for Link to Slider 5" filter="string" />
+
+				<field name="slidesimage6" type="media" default="" label="Slider Image 6" description="Please choose an image..." />
+				<field name="slidescaption6" type="text" default="" label="Text info for Slider 6" description="Text info for Slider 6" />
+				<field name="slideslink6" type="text" default="" label="URL for Link to Slider 6" description="URL for Link to Slider 6" filter="string" />						
+
+			</fieldset>	
+			<fieldset name="logo" description="" label="TPL_MXJOOMLA_PARAMS_LOGO">
+
+					<field name="showDefaultLogo" type="radio" default="1" label="TPL_MXJOOMLA_SHOW_DEFAULT_LOGO_LABEL" description="TPL_MXJOOMLA_SHOW_DEFAULT_LOGO_DESC">
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+					</field>
+
+					<field name="defaultLogo" type="imagelist" default="logo.png" label="TPL_MXJOOMLA_DEFAULT_LOGO_LABEL" description="TPL_MXJOOMLA_DEFAULT_LOGO_DESC" directory="/templates/mx_joofree10/images/logo" hide_default="no" exclude="" stripext="" />
+
+					<field name="defaultLogoImgColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_DEFAULT_LOGO_IMG_COLOR_LABEL" description="TPL_MXJOOMLA_DEFAULT_LOGO_IMG_COLOR_DESC"></field>
+
+					<field name="defaultLogoImgOpacity" type="text" size="10" default="" label="TPL_MXJOOMLA_DEFAULT_LOGO_IMG_OPACITY_LABEL" description="TPL_MXJOOMLA_DEFAULT_LOGO_IMG_OPACITY_DESC"></field>
+
+					<field name="defaultLogoPadding" type="text" size="10" default="" label="TPL_MXJOOMLA_DEFAULT_LOGO_PADDING_LABEL" description="TPL_MXJOOMLA_DEFAULT_LOGO_PADDING_DESC"></field>
+
+					<field name="defaultLogoMargin" type="text" size="10" default="" label="TPL_MXJOOMLA_DEFAULT_LOGO_MARGIN_LABEL" description="TPL_MXJOOMLA_DEFAULT_LOGO_MARGIN_DESC"></field>
+
+				<field type="spacer" hr="true" />
+
+					<field name="showMediaLogo" type="radio" default="0" label="TPL_MXJOOMLA_SHOW_MEDIA_LOGO_LABEL" description="TPL_MXJOOMLA_SHOW_MEDIA_LOGO_DESC">
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+					</field>
+
+					<field name="mediaLogo" type="media" label="TPL_MXJOOMLA_MEDIA_LOGO_LABEL" description="TPL_MXJOOMLA_MEDIA_LOGO_DESC" />
+
+					<field name="mediaLogoPadding" type="text" size="10" default="" label="TPL_MXJOOMLA_MEDIA_LOGO_PADDING_LABEL" description="TPL_MXJOOMLA_MEDIA_LOGO_PADDING_DESC"></field>
+
+					<field name="mediaLogoMargin" type="text" size="10" default="" label="TPL_MXJOOMLA_MEDIA_LOGO_MARGIN_LABEL" description="TPL_MXJOOMLA_MEDIA_LOGO_MARGIN_DESC"></field>
+
+				<field type="spacer" hr="true" />
+
+					<field name="showTextLogo" type="radio" default="0" label="TPL_MXJOOMLA_SHOW_TEXT_LOGO_LABEL" description="TPL_MXJOOMLA_SHOW_TEXT_LOGO_DESC">
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+					</field>
+
+					<field name="textLogo"  type="textarea" default="text here..." rows="1" cols="40"
+
+						label="TPL_MXJOOMLA_TEXT_LOGO_LABEL"
+						description="TPL_MXJOOMLA_TEXT_LOGO_DESC" />				
+
+					<field name="textLogoColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_TEXT_LOGO_COLOR_LABEL" description="TPL_MXJOOMLA_TEXT_LOGO_COLOR_DESC"></field>
+
+					<field name="textLogoFontSize" type="text" size="10" default="" label="TPL_MXJOOMLA_TEXT_LOGO_FONT_SIZE_LABEL" description="TPL_MXJOOMLA_TEXT_LOGO_FONT_SIZE_DESC"></field>
+
+					<field name="textLogoFontFamily" type="list" default="" label="TPL_MXJOOMLA_TEXT_LOGO_FONT_FAMILY_LABEL" description="TPL_MXJOOMLA_TEXT_LOGO_FONT_FAMILY_DESC">
+						<option value="">default</option>
+						<option value="Helvetica, Sans-Serif">Helvetica</option>
+						<option value="Arial, Sans-Serif">Arial</option>
+						<option value="'Times New Roman', Times, Serif">Times New Roman</option>
+						<option value="'Trebuchet MS', Sans-Serif">Trebuchet</option>
+						<option value="Verdana, Sans-Serif">Verdana</option>
+						<option value="Georgia, Serif">Georgia</option>
+						<option value="Tahoma, Sans-Serif">Tahoma</option>
+					</field>
+
+					<field name="textLogoLineHeight" type="text" size="10" default="" label="TPL_MXJOOMLA_TEXT_LOGO_LINE_HEIGHT_LABEL" description="TPL_MXJOOMLA_TEXT_LOGO_LINE_HEIGHT_DESC"></field>
+
+					<field name="textLogoPadding" type="text" size="10" default="" label="TPL_MXJOOMLA_TEXT_LOGO_PADDING_LABEL" description="TPL_MXJOOMLA_TEXT_LOGO_PADDING_DESC"></field>
+
+					<field name="textLogoMargin" type="text" size="10" default="" label="TPL_MXJOOMLA_TEXT_LOGO_MARGIN_LABEL" description="TPL_MXJOOMLA_TEXT_LOGO_MARGIN_DESC"></field>
+
+				<field type="spacer" hr="true" />
+
+					<field name="showSlogan" type="radio" default="0" label="TPL_MXJOOMLA_SHOW_LOGO_SLOGAN" description="TPL_MXJOOMLA_SHOW_LOGO_SLOGAN_DESC">
+					  <option value="1">Yes</option>
+					  <option value="0">No</option>
+					</field>
+
+					<field name="slogan" type="textarea" default="text here..." label="TPL_MXJOOMLA_LOGO_SLOGAN_LABEL" description="TPL_MXJOOMLA_LOGO_SLOGAN_DESC" rows="1" cols="40"></field>
+
+					<field name="sloganColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_LOGO_SLOGAN_COLOR_LABEL" description="TPL_MXJOOMLA_LOGO_SLOGAN_COLOR_DESC"></field>
+
+					<field name="sloganFontSize" type="text" size="10" default="" label="TPL_MXJOOMLA_LOGO_SLOGAN_FONT_SIZE_LABEL" description="TPL_MXJOOMLA_LOGO_SLOGAN_FONT_SIZE_DESC"></field>
+
+					<field name="sloganFontFamily" type="list" default="" label="TPL_MXJOOMLA_LOGO_SLOGAN_FONT_FAMILY_LABEL" description="TPL_MXJOOMLA_LOGO_SLOGAN_FONT_FAMILY_DESC">
+						<option value="">default</option>
+						<option value="Helvetica, Sans-Serif">Helvetica</option>
+						<option value="Arial, Sans-Serif">Arial</option>
+						<option value="'Times New Roman', Times, Serif">Times New Roman</option>
+						<option value="'Trebuchet MS', Sans-Serif">Trebuchet</option>
+						<option value="Verdana, Sans-Serif">Verdana</option>
+						<option value="Georgia, Serif">Georgia</option>
+						<option value="Tahoma, Sans-Serif">Tahoma</option>
+					</field>
+
+					<field name="sloganLineHeight" type="text" size="10" default="" label="TPL_MXJOOMLA_LOGO_SLOGAN_LINE_HEIGHT_LABEL" description="TPL_MXJOOMLA_LOGO_SLOGAN_LINE_HEIGHT_DESC"></field>
+
+					<field name="sloganPadding" type="text" size="10" default="" label="TPL_MXJOOMLA_LOGO_SLOGAN_PADDING_LABEL" description="TPL_MXJOOMLA_LOGO_SLOGAN_PADDING_DESC"></field>
+
+					<field name="sloganMargin" type="text" size="10" default="" label="TPL_MXJOOMLA_LOGO_SLOGAN_MARGIN_LABEL" description="TPL_MXJOOMLA_LOGO_SLOGAN_MARGIN_DESC"></field>
+
+			</fieldset>
+			<fieldset name="rtltemplate" description="" label="TPL_MXJOOMLA_PARAMS_RTL">
+				<field name="rtlTemplate" type="radio" default="0" label="TPL_MXJOOMLA_RTL_LANGUAGES" description="TPL_MXJOOMLA_RTL_LANGUAGES_DESCRIPTION">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>				
+			</fieldset>
+			
+			<fieldset name="style" description="" label="TPL_MXJOOMLA_PARAMS_STYLE">		
+			 <field type="spacer" default="" label="ONLY_IN_PRO" description=""/>
+				<field name="templateStyles" type="list" default="style3"
+					label="TPL_MXJOOMLA_PARAMS_STYLES_LABEL"
+					description="TPL_MXJOOMLA_PARAMS_STYLES_DESC" disabled="true" >
+						<option value="style1" disabled="true" >Blue</option>
+						<option value="style2" disabled="true" >Orange</option>
+						<option value="style3" disabled="true" >Red</option>
+						<option value="style4" disabled="true" >Green</option>
+				</field>				
+			</fieldset>
+			<fieldset name="layout" description="" label="TPL_MXJOOMLA_TEMPLATE_LAYOUT">		
+			 <field type="spacer" default="" label="ONLY_IN_PRO" description=""/>	
+
+				<field name="maxWidth" type="text" default="960px" label="TPL_MXJOOMLA_MAX_WIDTH_LABEL" description="TPL_MXJOOMLA_MAX_WIDTH_DESC" disabled="true" ></field>
+
+				<field type="spacer" hr="true" />
+
+					<field name="bodyColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_BODY_COLOR_LABEL" description="TPL_MXJOOMLA_BODY_COLOR_DESC" disabled="true" ></field>
+
+					<field name="bodyFontSize" type="text" size="10" default="" label="TPL_MXJOOMLA_BODY_FONT_SIZE_LABEL" description="TPL_MXJOOMLA_BODY_FONT_SIZE_DESC" disabled="true" ></field>
+
+					<field name="bodyFontFamily" type="list" default="" label="TPL_MXJOOMLA_BODY_FONT_FAMILY_LABEL" description="TPL_MXJOOMLA_BODY_FONT_FAMILY_DESC" disabled="true" >
+						<option value="" disabled="true" >default</option>
+						<option value="Helvetica, Sans-Serif" disabled="true" >Helvetica</option>
+						<option value="Arial, Sans-Serif" disabled="true" >Arial</option>
+						<option value="'Times New Roman', Times, Serif" disabled="true" >Times New Roman</option>
+						<option value="'Trebuchet MS', Sans-Serif" disabled="true" >Trebuchet</option>
+						<option value="Verdana, Sans-Serif" disabled="true" >Verdana</option>
+						<option value="Georgia, Serif" disabled="true" >Georgia</option>
+						<option value="Tahoma, Sans-Serif" disabled="true" >Tahoma</option>
+					</field>
+
+					<field name="bodyLineHeight" type="text" size="10" default="" label="TPL_MXJOOMLA_BODY_LINE_HEIGHT_LABEL" description="TPL_MXJOOMLA_BODY_LINE_HEIGHT_DESC" disabled="true" ></field>
+					
+				<field type="spacer" hr="true" />
+
+					<field name="linkColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_LINK_COLOR_LABEL" description="TPL_MXJOOMLA_LINK_COLOR_DESC" disabled="true" ></field>
+
+					<field name="linkColorHover" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_LINK_COLOR_HOVER_LABEL" description="TPL_MXJOOMLA_LINK_COLOR_HOVER_DESC" disabled="true" ></field>
+
+				<field type="spacer" hr="true" />
+
+					<field name="mainBgrtextColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_ARTICLE_COLOR_LABEL" description="TPL_MXJOOMLA_ARTICLE_COLOR_DESC" disabled="true" ></field>
+					<field name="mainBgrColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_TOPNAV_BG_COLOR_LABEL" description="TPL_MXJOOMLA_TOPNAV_BG_COLOR_DESC" disabled="true" ></field>
+					<field name="articleTitleFontSize" type="text" size="10" default="" label="TPL_MXJOOMLA_ARTICLE_TITLE_FONT_SIZE_LABEL" description="TPL_MXJOOMLA_ARTICLE_TITLE_FONT_SIZE_DESC" disabled="true" ></field>
+
+					<field name="articleTitleFontFamily" type="list" default="" label="TPL_MXJOOMLA_ARTICLE_TITLE_FONT_FAMILY_LABEL" description="TPL_MXJOOMLA_ARTICLE_TITLE_FONT_FAMILY_DESC" disabled="true" >
+						<option value="" disabled="true" >default</option>
+						<option value="Helvetica, Sans-Serif" disabled="true" >Helvetica</option>
+						<option value="Arial, Sans-Serif" disabled="true" >Arial</option>
+						<option value="'Times New Roman', Times, Serif" disabled="true" >Times New Roman</option>
+						<option value="'Trebuchet MS', Sans-Serif" disabled="true" >Trebuchet</option>
+						<option value="Verdana, Sans-Serif" disabled="true" >Verdana</option>
+						<option value="Georgia, Serif" disabled="true" >Georgia</option>
+						<option value="Tahoma, Sans-Serif" disabled="true" >Tahoma</option>
+					</field>
+
+				<field type="spacer" hr="true" />
+
+					<field name="moduleTitleFontSize" type="text" size="10" default="" label="TPL_MXJOOMLA_MODULE_TITLE_FONT_SIZE_LABEL" description="TPL_MXJOOMLA_MODULE_TITLE_FONT_SIZE_DESC" disabled="true" ></field>
+
+					<field name="moduleTitleFontFamily" type="list" default="" label="TPL_MXJOOMLA_MODULE_TITLE_FONT_FAMILY_LABEL" description="TPL_MXJOOMLA_MODULE_TITLE_FONT_FAMILY_DESC" disabled="true" >
+						<option value="" disabled="true" >default</option>
+						<option value="Helvetica, Sans-Serif" disabled="true" >Helvetica</option>
+						<option value="Arial, Sans-Serif" disabled="true" >Arial</option>
+						<option value="'Times New Roman', Times, Serif" disabled="true" >Times New Roman</option>
+						<option value="'Trebuchet MS', Sans-Serif" disabled="true" >Trebuchet</option>
+						<option value="Verdana, Sans-Serif" disabled="true" >Verdana</option>
+						<option value="Georgia, Serif" disabled="true" >Georgia</option>
+						<option value="Tahoma, Sans-Serif" disabled="true" >Tahoma</option>
+					</field>
+
+				<field type="spacer" hr="true" />
+				
+					<field name="headerBgColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_HEADER_BG_COLOR" description="TPL_MXJOOMLA_LINK_HEADER_BG_COLOR_DESC" disabled="true" ></field>
+
+					<field name="headerBgPattern" type="list" default="" label="TPL_MXJOOMLA_HEADER_BG_PATTERN_LABEL" description="TPL_MXJOOMLA_HEADER_BG_PATTERN_DESC" disabled="true" >
+						<option value="no" disabled="true" >No Pattern</option>
+						<option value="wood" disabled="true" >Wood</option>
+						<option value="stripes" disabled="true" >Stripes</option>
+						<option value="lines" disabled="true" >lines</option>
+						<option value="squares" disabled="true" >Squares</option>
+					</field>
+
+					<field name="navColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_NAV_COLOR_LABEL" description="TPL_MXJOOMLA_NAV_COLOR_DESC" disabled="true" ></field>
+
+					<field name="navActiveColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_NAV_ACTIVE_COLOR_LABEL" description="TPL_MXJOOMLA_NAV_ACTIVE_COLOR_DESC" disabled="true" ></field>
+
+					<field name="subnavActiveColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_SUBNAV_ACTIVE_COLOR_LABEL" description="TPL_MXJOOMLA_SUBNAV_ACTIVE_COLOR_DESC" disabled="true" ></field>
+
+				<field type="spacer" hr="true" />
+
+					<field name="slideBgColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_SLIDE_BG_COLOR_LABEL" description="TPL_MXJOOMLA_SLIDE_BG_COLOR_DESC" disabled="true" ></field>
+
+					<field name="slideBgPattern" type="list" default="" label="TPL_MXJOOMLA_SLIDE_BG_PATTERN_LABEL" description="TPL_MXJOOMLA_SLIDE_BG_PATTERN_DESC" disabled="true" >
+						<option value="no" disabled="true" >No Pattern</option>
+						<option value="dots" disabled="true" >Dots</option>
+						<option value="wood" disabled="true" >Wood</option>
+						<option value="stripes" disabled="true" >Stipes</option>
+						<option value="lines" disabled="true" >lines</option>
+						<option value="squares" disabled="true" >Squares</option>
+						<option value="xform" disabled="true" >X-form</option>
+					</field>
+
+					<field name="slideColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_SLIDE_COLOR_LABEL" description="TPL_MXJOOMLA_SLIDE_COLOR_DESC" disabled="true" ></field>
+
+					<field name="slideLinkColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_SLIDE_LINK_COLOR_LABEL" description="TPL_MXJOOMLA_SLIDE_LINK_COLOR_DESC" disabled="true" ></field>
+
+					<field name="slideLinkActiveColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_SLIDE_LINK_ACTIVE_COLOR_LABEL" description="TPL_MXJOOMLA_SLIDE_LINK_ACTIVE_COLOR_DESC" disabled="true" ></field>
+
+				<field type="spacer" hr="true" />
+				
+					<field name="maintopBgColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_MAINTOP_BG_COLOR_LABEL" description="TPL_MXJOOMLA_MAINTOP_BG_COLOR_DESC" disabled="true" ></field>
+
+					<field name="maintopColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_MAINTOP_COLOR_LABEL" description="TPL_MXJOOMLA_MAINTOP_COLOR_DESC" disabled="true" ></field>
+
+					<field name="maintopLinkColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_MAINTOP_LINK_COLOR_LABEL" description="TPL_MXJOOMLA_MAINTOP_LINK_COLOR_DESC" disabled="true" ></field>
+
+					<field name="maintopLinkActiveColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_MAINTOP_LINK_ACTIVE_COLOR_LABEL" description="TPL_MXJOOMLA_MAINTOP_LINK_ACTIVE_COLOR_DESC" disabled="true" ></field>
+
+				<field type="spacer" hr="true" />
+
+					<field name="mainbottomBgColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_MAINBOTTOM_BG_COLOR_LABEL" description="TPL_MXJOOMLA_MAINBOTTOM_BG_COLOR_DESC" disabled="true" ></field>
+
+					<field name="mainbottomColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_MAINBOTTOM_COLOR_LABEL" description="TPL_MXJOOMLA_MAINBOTTOM_COLOR_DESC" disabled="true" ></field>
+
+					<field name="mainbottomLinkColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_MAINBOTTOM_LINK_COLOR_LABEL" description="TPL_MXJOOMLA_MAINBOTTOM_LINK_COLOR_DESC" disabled="true" ></field>
+
+					<field name="mainbottomLinkActiveColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_MAINBOTTOM_LINK_ACTIVE_COLOR_LABEL" description="TPL_MXJOOMLA_MAINBOTTOM_LINK_ACTIVE_COLOR_DESC" disabled="true" ></field>
+
+				<field type="spacer" hr="true" />
+
+					<field name="bottomBgColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_BOTTOM_BG_COLOR_LABEL" description="TPL_MXJOOMLA_BOTTOM_BG_COLOR_DESC" disabled="true" ></field>
+
+					<field name="bottomColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_BOTTOM_COLOR_LABEL" description="TPL_MXJOOMLA_BOTTOM_COLOR_DESC" disabled="true" ></field>
+
+					<field name="bottomLinkColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_BOTTOM_LINK_COLOR_LABEL" description="TPL_MXJOOMLA_BOTTOM_LINK_COLOR_DESC" disabled="true" ></field>
+
+					<field name="bottomLinkActiveColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_BOTTOM_LINK_ACTIVE_COLOR_LABEL" description="TPL_MXJOOMLA_BOTTOM_LINK_ACTIVE_COLOR_DESC" disabled="true" ></field>
+
+				<field type="spacer" hr="true" />
+
+					<field name="footerBgColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_FOOTER_BG_COLOR_LABEL" description="TPL_MXJOOMLA_FOOTER_BG_COLOR_DESC" disabled="true" ></field>
+
+					<field name="footerColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_FOOTER_COLOR_LABEL" description="TPL_MXJOOMLA_FOOTER_COLOR_DESC" disabled="true" ></field>
+
+					<field name="footerLinkColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_FOOTER_LINK_COLOR_LABEL" description="TPL_MXJOOMLA_FOOTER_LINK_COLOR_DESC" disabled="true" ></field>
+
+					<field name="footerLinkActiveColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_FOOTER_LINK_ACTIVE_COLOR_LABEL" description="TPL_MXJOOMLA_FOOTER_LINK_ACTIVE_COLOR_DESC" disabled="true" ></field>
+
+				<field type="spacer" hr="true" />
+
+					<field name="copyrightBgColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_COPYRIGHT_BG_COLOR_LABEL" description="TPL_MXJOOMLA_COPYRIGHT_BG_COLOR_DESC" disabled="true" ></field>
+
+					<field name="copyrightColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_COPYRIGHT_COLOR_LABEL" description="TPL_MXJOOMLA_COPYRIGHT_COLOR_DESC" disabled="true" ></field>
+
+					<field name="copyrightLinkColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_COPYRIGHT_LINK_COLOR_LABEL" description="TPL_MXJOOMLA_COPYRIGHT_LINK_COLOR_DESC" disabled="true" ></field>
+
+					<field name="copyrightLinkActiveColor" class="color {required:false}" type="text" default="" label="TPL_MXJOOMLA_COPYRIGHT_LINK_ACTIVE_COLOR_LABEL" description="TPL_MXJOOMLA_COPYRIGHT_LINK_ACTIVE_COLOR_DESC" disabled="true" ></field>
+
+					<field name="backtotop" type="radio" default="1" label="TPL_MXJOOMLA_BACKTOTOP_LABEL" description="TPL_MXJOOMLA_BACKTOTOP_DESC">
+						<option value="1">Yes</option>
+						<option value="0">No</option>
+					</field>
+
+			</fieldset>
+
+			<fieldset name="responsive" description="" label="TPL_MXJOOMLA_RESPONSIVE" disabled="true" >			
+			 <field type="spacer" default="" label="ONLY_IN_PRO" description=""/>
+				<field name="responsiveCode" type="radio" default="1" label="TPL_MXJOOMLA_RESPONSIVE_LABEL" description="TPL_MXJOOMLA_RESPONSIVE_DESC" disabled="true" >
+					  <option value="1" disabled="true" >Yes</option>
+					  <option value="0" disabled="true" >No</option>
+			    </field>
+				<field name="show_menu_text" type="input" default="Select a Page" label="'Show Menu' Button Text" description="Enter the text you want to appear first in the select-list navigation for small resolutions." disabled="true" />		
+			</fieldset>
+			<fieldset name="ADVANCED">
+				<field name="analyticsCode" type="text" label="Google analytics code" description="Add your Google analytics here. EXAMPLE: UA-11833310-01" default="" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
+

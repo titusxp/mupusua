@@ -1,0 +1,34 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+@import url(../warp/css/layout.css);
+
+
+/* Spacing
+----------------------------------------------------------------------------------------------------*/
+
+.module,
+
+#breadcrumbs,
+#content
+{ margin: 15px; }
+
+#footer .module, #footer{ margin: 0; }
+#footer {padding: 10px;}
+
+#headerbar { margin: 0; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#totop-scroller {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	width: 20px;
+	height: 20px;
+	background: url(../images/totop_scroller.png) 50% 50% no-repeat;
+	text-decoration: none;
+}

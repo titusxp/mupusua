@@ -1,0 +1,23 @@
+/*
+Description: template admin interface
+*/
+
+/*  Tabs 
+--------------------------------------------------------------------------------------------------------------------- */
+
+.pane-sliders .panel { margin-bottom: 0; }
+
+.pane-sliders .panel h3 { background: url(images/panel-bg.png) repeat-x #cccccc; color: #444444; height:36px; line-height: 36px; padding:0 0 0 10px; }
+.pane-sliders .panel h3 a { color: #222222; }
+
+.pane-toggler span { background: transparent url(images/arrow.png) 0px 50% no-repeat; padding-left: 18px; }
+.pane-toggler-down span { background: transparent url(images/arrow_down.png) 0px 50% no-repeat; padding-left: 18px; }
+
+h3#style-options a, h3#layout-options a, h3#logo-options a, h3#mobile-options a, h3#analytics-options {	
+	display:block;
+}
+
+hr { margin:15px 0; border:0; border-top:1px solid #dddddd; border-bottom:1px solid #ffffff; }
+
+
+

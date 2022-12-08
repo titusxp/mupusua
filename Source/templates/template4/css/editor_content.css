@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	background: #ffffff;
+	background-image: none;
+	}
+	
+textarea {
+	background: #ffffff;
+	font: 11px "Tahoma", monospace;
+	}

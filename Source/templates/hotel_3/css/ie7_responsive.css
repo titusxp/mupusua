@@ -1,0 +1,25 @@
+/*****************************************
+		SITE  IE7 with Responsive feature
+******************************************/
+
+/** 		DROP DOWN MENU 		**/
+
+@media screen and (max-width: 979px) {
+	
+	.drop-down ul {
+    width: 98% ;
+    left : 1% ;
+    max-width:none;
+ 	}
+	
+	.drop-down ul ul {
+	width:100%;
+	padding:0;
+	}
+	
+	.drop-down li li a, .drop-down li li span.separator {
+	border:1px solid #aaa ;
+	}
+
+
+}

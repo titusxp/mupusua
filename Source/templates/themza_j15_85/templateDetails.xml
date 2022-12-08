@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>themza_j15_85</name>
+	<version>1.0.0</version>
+	<creationDate>2011-07-25</creationDate>
+	<author>Themza Team</author>
+	<authorEmail>templates@themza.com</authorEmail>
+	<authorUrl>http://www.themza.com</authorUrl>
+	<copyright>ThemZa 2010</copyright>
+	<license>ThemZa TOS</license>
+	<description>American Football</description>
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+		<filename>functions.php</filename>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user4</position>
+		<position>debug</position>
+		<position>syndicate</position>
+	</positions>
+	<params>
+		<param name="colorVariation" type="list" default="redblack" label="Color Variation" description="Color variation to use">
+			<option value="redblack">Red Black</option>
+			<option value="orangedarkblue">Orange Dark-Blue</option>
+			<option value="bluedarkblue">Blue Dark-Blue</option>
+		</param>
+		<param type="spacer" />
+		<param name="hideLogo" type="radio" default="0" label="Hide Logo" description="Hide the logo.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="logoVariation" type="list" default="1" label="Logo Variation" description="Logo variation to use">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+		</param>
+		<param type="spacer" />
+	</params>
+</install>
+

@@ -1,0 +1,28 @@
+
+/*  Copyright:  (C) 10.2008 joomla-best.com. All Rights Reserved.
+//  License:	GNU/GPL 
+//  Website: 	http://www.joomla-best.com
+*/
+
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #555555;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+#stronag {
+	background: url(../images/1tlog.gif) 0 0 repeat-x;
+}
+
+#stronad {
+	background: #111111 url(../images/bg2.jpg) center 0;
+}

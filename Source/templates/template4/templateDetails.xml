@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	
+	<name>Template4</name>
+	<version>1.0</version>
+	<creationDate>03/03/09</creationDate>
+	<author>Joomla-best.com</author>
+	<authorEmail>admin@joomla-best.com</authorEmail>
+	<authorUrl>http://www.joomla-best.com</authorUrl>
+	<copyright>Copyright 2009 - Joomla-best.com</copyright>
+	<description>
+
+	<![CDATA[
+	    <h1></h1>
+		
+		<div style="font-size: 12px;"><br />
+			<span style="color: #aa0000;">
+			<b>Templates 1 for Joomla 1.5 - Design Joomla-Best.com</b>
+			</span>
+		</div>
+		
+		<img src="../templates/template4/template_thumbnail.png" align="left" style="margin: 0px 0px 10px 10px;" />
+
+		<div style="font-size: 12px;"><br />
+			<span style="color: #ff0000;">
+			<b>
+			<a href="http://www.joomla-best.com">JOOMLA-BEST</a>
+			</b>
+			</span>
+		</div>
+		<b>Wersja 1.0</b><br />
+	]]>
+	
+	
+	</description>
+
+	<files>
+		<folder>css/</folder>
+        <folder>html/</folder>
+        <folder>images/</folder>
+        <folder>js/</folder>
+        <folder>php/</folder>
+		<filename>component.php</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+
+	<positions>
+		<position>left</position> 
+		<position>right</position> 
+		<position>top</position>
+		<position>topmenu</position> 
+		<position>cpanel</position>
+		<position>banner</position>  
+		<position>footer</position> 
+		<position>footer1</position> 	
+		<position>breadcrumbs</position>
+		<position>ad</position> 
+		<position>ad1</position> 
+		<position>advert1</position>
+		<position>advert2</position> 
+		<position>advert3</position> 
+		<position>advert4</position> 
+		<position>slogan</position>
+		<position>content1</position> 
+		<position>content2</position>
+		<position>content3</position> 
+		<position>content4</position> 
+		<position>search</position>
+		<position>debug</position>
+		<position>bottom</position> 
+	</positions>
+
+
+	<params>
+		<param name="@spacer" type="spacer" default="Settings Menu" label="" description="" />
+		<param name="Nazwa_Menu" type="text" default="mainmenu" label="Menu" description="Select the main menu" />
+		<param name="Rodzaj_Menu" type="radio" default="1" label="Type menu" description="Select the type of menu">
+			<option value="1">suckerfish</option>
+			<option value="2">mootools - fade</option>
+			<option value="3">mootools - scroll</option>
+		</param>
+			
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+			
+		<param name="@spacer" type="spacer" default="Tools" label="" description="" />
+		<param name="Pokaz_Narzedzia" type="list" default="0" label="Page Tools" description="Show / hide Tools">
+			<option value="0">show all</option>
+			<option value="1">show the color</option>
+			<option value="2">show page size</option>
+			<option value="3">show font size</option>
+			<option value="4">show the color and size of the page</option>
+			<option value="5">show the color and font size</option>
+			<option value="6">show the page size and font size</option>
+			<option value="7">hide all</option>
+		</param>
+			
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+			
+		<param name="@spacer" type="spacer" default="Page Setup" label="" description="" />
+		<param name="Styl_Strony" type="radio" default="multi" label="Page Style" description="Select a page style">
+			<option value="red">red</option>
+			<option value="blue">blue</option>
+			<option value="green">green</option>
+			<option value="grey">grey</option>
+			<option value="multi">black</option>
+		</param>
+			
+		<param name="Rozmiar_Strony" type="radio" default="standard" label="Page Size" description="Select a page size">
+			<option value="szeroka">1280px</option>
+			<option value="standard">1152px</option>
+			<option value="waska">1024px</option>
+		</param>
+			
+		<param name="Rozmiar_Czcionki" type="radio" default="standard" label="Font Size" description="Select a font size">
+			<option value="mala"> ( 9px )</option>
+			<option value="standard"> ( 11px )</option>
+			<option value="duza"> ( 13px )</option>
+	
+		</param>
+
+	</params>
+</install>

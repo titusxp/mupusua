@@ -1,0 +1,42 @@
+@import url('moduly.css');
+@import url('modulyn.css');
+@import url('joomlastyl.css');
+@import url('modulyduze.css');
+@import url('menu.css');
+@import url('typografia.css');
+
+/*  Copyright:  (C) 10.2008 joomla-best.com. All Rights Reserved.
+//  License:	GNU/GPL 
+//  Website: 	http://www.joomla-best.com
+*/
+
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #555555;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+#cient {
+	/*background: #98bdc6 url(../images/cientlo.png);*/
+}
+
+#cient1 {
+	text-align: left;
+	margin: 0 auto;
+}
+
+#cienp {
+}
+
+#cienl {
+}
+

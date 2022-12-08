@@ -1,0 +1,1 @@
+window.addEvent('domready',function(){new SmoothScroll({duration:2000});});

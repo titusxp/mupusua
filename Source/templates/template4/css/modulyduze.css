@@ -1,0 +1,581 @@
+
+
+/*  Copyright:  (C) 10.2008 joomla-best.com. All Rights Reserved.
+//  License:	Copyrighted Commercial Software 
+//  Website: 	http://www.joomla-best.com
+*/
+
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #555555;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+#stronag {
+	background: url(../images/bg1.jpg) center 0 repeat-x;
+}
+
+#stronad {
+	background: #332827 url(../images/bg1d.jpg) center 100% repeat-x;
+}
+
+
+.clr {
+	clear: both;
+}
+
+#logo {
+	width: 300px;
+	height: 80px;
+	position: absolute;
+	display: block;
+	float: left;
+	padding-left: 0px;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+#stronaa {
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+	height: 100px;
+	text-align: left;
+}
+
+#stronac {
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+	text-align: left;
+}
+
+/* */
+
+#reklama1 {
+	padding-top: 20px;
+	float: right;
+	overflow: hidden;
+}
+
+#mtloginpanel {
+	padding-top: 20px;
+	float: right;
+	/*overflow: hidden;*/
+}
+
+#stronagora {
+	clear: both;
+	padding: 0px;	
+}
+
+
+#stronagoraw {
+	padding-bottom: 0px;
+	padding-top: 0px;	
+}
+
+#centrumtop {
+	padding: 0px 0px 0px 0px;
+	border: 0px solid #ff0000;
+	text-align: left;
+	position: relative;
+	height: 80px;
+	z-index: 1;
+}
+
+.dlbox {
+	float: left;
+	overflow: hidden;
+	color: #777777;
+	padding-top: 0px;
+}
+
+.dlbox h3 {
+	margin-bottom: 5px;
+	text-indent: 3px;
+	font-size: 1.3em;
+	text-indent: 3px;
+	color: #777777;
+}
+
+.dlbox div.moduletable {
+	margin: 0px;
+}
+
+.dlbox ul {
+	padding: 0px;
+	margin: 0px!important;
+}
+
+.dlbox li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+.dlbox  .article_seperator {
+	display: none;
+}
+
+.dl3box {
+	float: left;
+	overflow: hidden;
+	color: #777777;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.dl4box {
+	float: left;
+	overflow: hidden;
+	color: #777777;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+
+.dl5box {
+	float: left;
+	overflow: hidden;
+	color: #777777;
+}
+
+.dlbox1 {
+	float: left;
+	overflow: hidden;
+	color: #777777;
+	padding-top:0px;
+}
+
+.dlbox1 h3 {
+	margin-bottom: 5px;
+	text-indent: 3px;
+	font-size: 1.3em;
+	text-indent: 3px;
+	color: #777777;
+}
+
+.dlbox1 div.moduletable {
+	margin: 0px;
+}
+
+.dlbox1 ul {
+	padding: 0px;
+	margin: 0px!important;
+}
+
+.dlbox1 li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+.dlbox1  .article_seperator {
+	display: none;
+}
+
+.clearfix:after {
+	clear: both;
+	display: block;
+	content: ".";
+	visibility: hidden;
+	height: 0;
+}
+
+* html > body .clearfix {
+	width: 100%;
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+html {
+	margin-bottom: 1px;
+	height: 100%!important;
+	height: auto;
+}
+
+
+#rozmiary, #rozmiary1, #rozmiary2, #rozmiary3, #rozmiary4 {
+	text-align: left;
+	margin: 0 auto;
+}
+
+.odstep5 {
+	height: 5px;
+}
+
+#odstep1 {
+	height: 10px;
+}
+
+.odstep10 {
+	height: 10px;
+}
+
+.odstep20 {
+	height: 20px;
+}
+
+#centrum2-tl{
+	height: 30px;
+	background: url(../images/modulyd/centrum2-tl.gif) no-repeat;
+	position: relative;
+}
+
+#centrum2-t{
+	width: 100%;
+	height: 30px;
+	background: url(../images/modulyd/centrum2-t.gif) repeat-x;
+	float: left;
+}
+
+#centrum2-tr{
+	height: 30px;
+	background: url(../images/modulyd/centrum2-tr.gif) 100% 0 no-repeat;
+}
+
+#centrum2-l{
+	background: url(../images/modulyd/centrum2-l.gif) repeat-y;
+	position: relative;
+	height: 100%;
+	width: 100%
+}
+
+#centrum2-r{
+	width: 100%;
+	background: url(../images/modulyd/centrum2-r.gif) 100% 0 repeat-y;
+	float: left;
+}
+
+#centrum2-bl{
+	height: 30px;
+	background: url(../images/modulyd/centrum2-bl.gif) no-repeat;
+	position: relative;
+}
+
+#centrum2-b{
+	width: 100%;
+	height: 30px;
+	background: url(../images/modulyd/centrum2-b.gif) repeat-x;
+	float: left;
+}
+
+#centrum2-br{
+	height: 30px;
+	background: url(../images/modulyd/centrum2-br.gif) 100% 0 no-repeat;
+}
+
+#centrum6-tl{
+	height: 30px;
+	background: url(../images/modulyd/centrum2-tl.gif) no-repeat;
+	position: relative;
+}
+
+#centrum6-t{
+	width: 100%;
+	height: 30px;
+	background: url(../images/modulyd/centrum2-t.gif) repeat-x;
+	float: left;
+}
+
+#centrum6-tr{
+	height: 30px;
+	background: url(../images/modulyd/centrum2-tr.gif) 100% 0 no-repeat;
+}
+
+#centrum6-l{
+	background: url(../images/modulyd/centrum6-l.gif) 0 0 no-repeat;
+	position: relative;
+	height: 64px;
+}
+
+#centrum6-r{
+	background: url(../images/modulyd/centrum6-r.gif) 100% 0 no-repeat;
+	height: 64px;
+}
+
+#centrum6-s{
+	width: 100%;
+	background: url(../images/modulyd/centrum6-s.gif) 0 0 repeat-x;
+	float: left;
+	height: 64px;
+}
+
+#centrum6-bl{
+	height: 30px;
+	background: url(../images/modulyd/centrum2-bl.gif) no-repeat;
+	position: relative;
+}
+
+#centrum6-b{
+	width: 100%;
+	height: 30px;
+	background: url(../images/modulyd/centrum2-b.gif) repeat-x;
+	float: left;
+}
+
+#centrum6-br{
+	height: 30px;
+	background: url(../images/modulyd/centrum2-br.gif) 100% 0 no-repeat;
+}
+
+#panel1 {
+	padding: 0px;
+	height: 1px;
+	overflow: hidden;
+	visibility: hidden;
+	background: transparent;
+}
+
+#narzedzia {
+	margin: 0;
+	padding: 0;
+}
+
+#cen {
+    text-align: left;
+	margin: 0 auto;
+}
+
+#cen1 {
+    text-align: left;
+	margin: 0 auto;
+}
+
+#cen2 {
+    text-align: left;
+	margin: 0 auto;
+}
+
+#cen0 {
+    text-align: left;
+	margin: 0 auto;
+	background: #fcfdfc;
+}
+
+#cen3 {
+    text-align: left;
+	margin: 0 auto;
+	background: #F5EDD8;
+}
+
+#cen4 {
+    text-align: left;
+	margin: 0 auto;
+}
+
+#cen5 {
+    text-align: left;
+	margin: 0 auto;
+}
+
+#cen6 {
+    text-align: left;
+	margin: 0 auto;
+}
+
+#cen7 {
+    text-align: left;
+	margin: 0;
+}
+
+#cen9 {
+    text-align: left;
+	margin: 0 auto;
+	background: url(../images/obram3.png);
+	z-index:3;
+	height: 30px;
+}
+
+#roz1 {
+    text-align: left;
+	margin: 0 auto;
+	background: #f7f8f7;
+}
+
+#roz2 {
+    text-align: left;
+	margin: 0 auto;
+}
+
+#odb1 {
+	margin: 0 auto;
+}
+
+#rek1 {
+    text-align: left;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#rek11 {
+    text-align: left;
+	margin: 0 auto;
+	border: 0px solid #a00000;
+	z-index: 8;
+}
+
+#rek111 {
+    text-align: left;
+	margin: 0 auto;
+	background: url(../images/1gallery.gif) no-repeat center 22px;
+	z-index: 10;
+}
+
+#rek5 {
+    text-align: left;
+	padding: 0 0 0 5%;
+	margin: 0 auto;
+}
+
+#dol1, #dol2, #dol3, #dol4, #dol {
+	margin: 0;
+	padding: 0;
+}
+
+#skoktop {
+	text-align: center;
+}
+
+#main {
+	padding: 0px;
+	margin: 10px 5px 10px 5px;
+}
+
+#design {
+	
+	padding-top: 24px;
+	font-size: 11px; 
+}
+
+#stopka {
+	clear: both;
+	color: #555555;
+	height: 35px;
+}
+
+#stopka1 {
+	text-align: right;
+	position: relative;
+}
+
+#stopka1 a {
+	color: #888888;
+	text-decoration:none;
+}
+
+#stopka1 a:hover,
+#stopka1 a:active,
+#stopka1 a:focus {
+
+	color: #ffffff;
+	text-decoration:none;
+}
+
+#stopka1 ul {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+
+#stopka1 ul li {
+	padding: 0px 10px 0px 10px;
+	display: inline;
+	background: url(../images/separatormenu.gif) repeat-y center right;
+}
+
+#stopka1 small {
+	position: absolute;
+	right: 0px;
+}
+
+#stopka2 {
+	width: 400px;
+	position: absolute;
+	left: -10px;
+	text-align: left;
+}
+
+#stopka3 {
+	padding-top: 24px;
+	width: 400px;
+	left: -10px;
+	text-align: right;
+}
+
+/* Naglowek */
+
+#naglowek1 {
+	text-align: right;
+	position: relative;
+	clear: both;
+	color: #555555;
+	height: 40px;
+}
+
+#naglowek1 a {
+	color: #52a70c;
+	text-decoration:none;
+}
+
+#naglowek1 a:hover,
+#naglowek1 a:active,
+#naglowek1 a:focus {
+
+	color: #ffffff;
+	text-decoration:none;
+}
+
+#naglowek1 ul {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+
+#naglowek1 ul li {
+	padding: 0px 10px 0px 10px;
+	display: inline;
+	background: url(../images/separatormenu.gif) repeat-y center right;
+}
+
+#naglowek1 small {
+	right: 0px;
+}
+
+#naglowek2 {
+	width: 400px;
+	position: absolute;
+	left: 0px;
+	text-align: left;
+}
+
+#naglowek3 {
+	width: 400px;
+	right: 0px;
+	text-align: right;
+}
+
+#naglowek3 a {
+	color: #888888;
+	text-decoration: none;
+}

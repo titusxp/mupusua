@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+	<name>Vinaora Cu3ox Slideshow</name>
+	<author>VINAORA</author>
+	<creationDate>Jul 2013</creationDate>
+	<copyright>Copyright (C) 2012-2013 VINAORA. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@vinaora.com</authorEmail>
+	<authorUrl>http://vinaora.com</authorUrl>
+	<version>2.5.11</version>
+	<description>MOD_VT_CU3OX_SLIDESHOW_XML_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<filename module="mod_vt_cu3ox_slideshow">mod_vt_cu3ox_slideshow.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>README.markdown</filename>
+		<filename>mod_vt_cu3ox_slideshow.xml</filename>
+		<folder>fields</folder>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+	</files>
+	
+	<media folder="media" destination="mod_vt_cu3ox_slideshow">
+		<filename>index.html</filename>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>jscolor</folder>
+		<folder>templates</folder>
+		<folder>transition</folder>
+	</media>
+	
+	<updateservers>
+		<server type="extension" priority="1" name="Vinaora Update Server">http://update.vinaora.com/joomla/mod_vt_cu3ox_slideshow.xml</server>
+	</updateservers>
+	
+	<config>
+		<fields name="params" addfieldpath="modules/mod_vt_cu3ox_slideshow/fields">
+			<fieldset name="basic">
+				<field name="lastedit" type="lastedit" />
+				<field type="spacer" name="@ikfamxqqxe" label="MOD_VT_CU3OX_SLIDESHOW_SPACER_DIMENSION_SETTINGS" />
+				<field name="ImageWidth" type="text" default="640" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_IMAGEWIDTH" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_IMAGEWIDTH_DESC" />
+				<field name="ImageHeight" type="text" default="480" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_IMAGEHEIGHT" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_IMAGEHEIGHT_DESC" />
+				<field type="spacer" name="@ajjk0aa3j9" label="MOD_VT_CU3OX_SLIDESHOW_SPACER_IMAGE_SETTINGS" />
+				<field name="item_dir" type="textarea" default=""  label="MOD_VT_CU3OX_SLIDESHOW_FIELD_ITEM_DIR" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_ITEM_DIR_DESC" />
+				<field name="item_path" type="textarea" rows="5" cols="30" default="" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_ITEM_PATH" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_ITEM_PATH_DESC" />
+				<field name="item_title" type="textarea" rows="5" cols="30" default="" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_ITEM_TITLE" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_ITEM_TITLE_DESC" />
+				<field name="item_description" type="textarea" rows="5" cols="30" default="" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_ITEM_DESCRIPTION" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_ITEM_DESCRIPTION_DESC" />
+				<field name="item_url" type="textarea" rows="5" cols="30" default="" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_ITEM_URL" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_ITEM_URL_DESC" />
+				<field name="item_target" type="list" default="_blank" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_ITEM_TARGET" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_ITEM_TARGET_DESC" >
+					<option value="_blank">MOD_VT_CU3OX_SLIDESHOW_OPTION_LINK_TARGET_BLANK</option>
+					<option value="_self">MOD_VT_CU3OX_SLIDESHOW_OPTION_LINK_TARGET_SELF</option>
+					<option value="_parent">MOD_VT_CU3OX_SLIDESHOW_OPTION_LINK_TARGET_PARENT</option>
+					<option value="_top">MOD_VT_CU3OX_SLIDESHOW_OPTION_LINK_TARGET_TOP</option>
+				</field>
+				<field name="item_rdirection" type="textarea" rows="5" cols="30" default="" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_ITEM_RDIRECTION" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_ITEM_RDIRECTION_DESC" />
+				<field name="item_segments" type="textarea" rows="5" cols="30" default="" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_ITEM_SEGMENTS" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_ITEM_SEGMENTS_DESC" />
+				<field type="spacer" name="@xmueba0sdw"  label="MOD_VT_CU3OX_SLIDESHOW_SPACER_TRANSITION_SETTINGS" />
+				<field name="Segments" type="text" default="0" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_SEGMENTS" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_SEGMENTS_DESC" />
+				<field name="SegmentsMax" type="text" default="10" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_SEGMENTS_MAX" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_SEGMENTS_MAX_DESC" />
+				<field name="RDirection" type="list" default="random" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_RDIRECTION" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_RDIRECTION_DESC">
+					<option value="random">MOD_VT_CU3OX_SLIDESHOW_OPTION_RDIRECTION_RANDOM</option>
+					<option value="left">MOD_VT_CU3OX_SLIDESHOW_OPTION_RDIRECTION_LEFT</option>
+					<option value="right">MOD_VT_CU3OX_SLIDESHOW_OPTION_RDIRECTION_RIGHT</option>
+					<option value="up">MOD_VT_CU3OX_SLIDESHOW_OPTION_RDIRECTION_UP</option>
+					<option value="down">MOD_VT_CU3OX_SLIDESHOW_OPTION_RDIRECTION_DOWN</option>
+				</field>
+				<field name="TweenType" type="filelist" default="random" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_TWEENTYPE" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_TWEENTYPE_DESC" directory="media/mod_vt_cu3ox_slideshow/transition" filter=".png" exclude="" stripext="png" hide_none="1" hide_default="1"/>
+				<field name="TweenTime" type="text" default="1.5" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_TWEENTIME" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_TWEENTIME_DESC" />
+				<field name="TweenDelay" type="text" default="0.2" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_TWEENDELAY" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_TWEENDELAY_DESC" />
+				<field type="spacer" name="@jx2kmydemh" hr="true" />
+				<field name="ZDistance" type="text" default="0" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_ZDISTANCE" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_ZDISTANCE_DESC" />
+				<field name="Expand" type="text" default="20" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_EXPAND" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_EXPAND_DESC" />
+				<field name="InnerColor" type="jscolor" class="color {hash:true,adjust:false}" default="#FFFFFF" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_INNERCOLOR" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_INNERCOLOR_DESC" />
+				<field type="spacer" name="@tobrktjmiy"  label="MOD_VT_CU3OX_SLIDESHOW_SPACER_START_AND_LOGO_SETTINGS" />
+				<field name="StartBackground" type="jscolor" class="color {hash:true,adjust:false}" default="#FFFFFF" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_STARTBACKGROUND" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_STARTBACKGROUND_DESC" />
+				<field name="NoLogo" type="radio" class="btn-group" default="0" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_NOLOGO" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_NOLOGO_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="LogoFile" type="media" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_LOGOFILE" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_LOGOFILE_DESC" />
+				<field name="LogoText" type="text" default="" size="40" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_LOGOTEXT" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_LOGOTEXT_DESC" />
+				<field name="LogoLink" type="text" default="vinaora.com" size="40" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_LOGOLINK" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_LOGOLINK_DESC" />
+				<field type="spacer" name="@vy0zp11e5m"  label="MOD_VT_CU3OX_SLIDESHOW_SPACER_SHADOW_FOOTER_SETTINGS" />
+				<field name="NoShadow" type="radio" class="btn-group" default="0" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_NOSHADOW" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_NOSHADOW_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="ShadowDarkness" type="text" default="100" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_SHADOWDARKNESS" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_SHADOWDARKNESS_DESC" />
+				<field type="spacer" name="@x1spdcfitq"  label="MOD_VT_CU3OX_SLIDESHOW_SPACER_PLAY_SETTINGS" />
+				<field name="ShowControls" type="radio" class="btn-group" default="1" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_SHOWCONTROLS" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_SHOWCONTROLS_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="AutoPlayDelay" type="text" default="3" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_AUTOPLAYDELAY" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_AUTOPLAYDELAY_DESC" />
+				<field name="AutoLoop" type="radio" class="btn-group" default="1" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_AUTOLOOP" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_AUTOLOOP_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="SoundFile" type="text" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_SOUNDFILE" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_SOUNDFILE_DESC" />
+				<field type="spacer" name="@y3tb1l5l6r"  label="MOD_VT_CU3OX_SLIDESHOW_SPACER_DESCRIPTION_BOX_SETTINGS" />
+				<field name="DescWidth" type="text" default="200" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_DESCWIDTH" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_DESCWIDTH_DESC" />
+				<field name="DescHeight" type="text" default="50" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_DESCHEIGHT" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_DESCHEIGHT_DESC" />
+				<field name="DescOffset" type="text" default="100" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_DESCOFFSET" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_DESCOFFSET_DESC" />
+				<field name="DescType" type="list" default="upDown" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_DESCTYPE" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_DESCTYPE_DESC">
+					<option value="upDown">MOD_VT_CU3OX_SLIDESHOW_OPTION_DESCTYPE_UPDOWN</option>
+					<option value="face">MOD_VT_CU3OX_SLIDESHOW_OPTION_DESCTYPE_FACE</option>
+				</field>
+				<field name="BorderRadius" type="text" default="5" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_BORDERRADIUS" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_BORDERRADIUS_DESC" />
+				<field name="TextBackground" type="jscolor" class="color {hash:true,adjust:false}" default="#FFFFFF" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_TEXTBACKGROUND" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_TEXTBACKGROUND_DESC" />
+				<field name="TextDistance" type="text" default="3" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_TEXTDISTANCE" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_TEXTDISTANCE_DESC" />
+				
+				<field type="spacer" name="@cqb4meelc8"  label="MOD_VT_CU3OX_SLIDESHOW_SPACER_HEADING_SETTINGS" />
+				<field name="HeadColor" type="jscolor" class="color {hash:true,adjust:false}" default="#000000" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_HEADCOLOR" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_HEADCOLOR_DESC" />
+				<field name="HeadFontSize" type="text" default="16" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_HEADFONTSIZE" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_HEADFONTSIZE_DESC" />
+				<field name="HeadFontFamily" type="text" default="Georgia,'Times New Roman',Times,serif" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_HEADFONTFAMILY" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_HEADFONTFAMILY_DESC" size="50" />
+				<field name="HeadFontStyle" type="list" default="normal" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_HEADFONTSTYLE" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_HEADFONTSTYLE_DESC" >
+					<option value="normal">normal</option>
+					<option value="italic">italic</option>
+					<option value="oblique">oblique</option>
+					<option value="lighter">lighter</option>
+				</field>
+				<field name="HeadFontWeight" type="list" default="bold" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_HEADFONTWEIGHT" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_HEADFONTWEIGHT_DESC" >
+					<option value="normal">normal</option>
+					<option value="bold">bold</option>
+					<option value="bolder">bolder</option>
+					<option value="lighter">lighter</option>
+				</field>
+				<field name="HeadTextDecor" type="list" default="none" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_HEADTEXTDECOR" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_HEADTEXTDECOR_DESC" >
+					<option value="none">JNONE</option>
+					<option value="underline">underline</option>
+					<option value="overline">overline</option>
+					<option value="line-through">line-through</option>
+					<option value="blink">blink</option>
+				</field>
+				<field type="spacer" name="@jw7su02m0u" label="MOD_VT_CU3OX_SLIDESHOW_SPACER_PARAGRAPH_SETTINGS" />
+				<field name="ParaColor" type="jscolor" class="color {hash:true,adjust:false}" default="#000000" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_PARACOLOR" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_PARACOLOR_DESC" />
+				<field name="ParaFontSize" type="text" default="12" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_PARAFONTSIZE" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_PARAFONTSIZE_DESC" />
+				<field name="ParaFontFamily" type="text" default="Georgia,'Times New Roman',Times,serif" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_PARAFONTFAMILY" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_PARAFONTFAMILY_DESC" size="50" />
+				<field name="ParaFontStyle" type="list" default="normal" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_PARAFONTSTYLE" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_PARAFONTSTYLE_DESC" >
+					<option value="normal">normal</option>
+					<option value="italic">italic</option>
+					<option value="oblique">oblique</option>
+					<option value="lighter">lighter</option>
+				</field>
+				<field name="ParaFontWeight" type="list" default="normal" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_PARAFONTWEIGHT" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_PARAFONTWEIGHT_DESC" >
+					<option value="normal">normal</option>
+					<option value="bold">bold</option>
+					<option value="bolder">bolder</option>
+					<option value="lighter">lighter</option>
+				</field>
+				<field name="ParaTextDecor" type="list" default="none" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_PARATEXTDECOR" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_PARATEXTDECOR_DESC" >
+					<option value="none">JNONE</option>
+					<option value="underline">underline</option>
+					<option value="overline">overline</option>
+					<option value="line-through">line-through</option>
+					<option value="blink">blink</option>
+				</field>
+				<field type="spacer" name="@pz91o2idef" label="MOD_VT_CU3OX_SLIDESHOW_SPACER_LINK_SETTINGS" />
+				<field name="LinkColor" type="jscolor" class="color {hash:true,adjust:false}" default="#000000" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_LINKCOLOR" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_LINKCOLOR_DESC" />
+				<field name="LinkHoverColor" type="jscolor" class="color {hash:true,adjust:false}" default="#000000" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_LINKHOVERCOLOR" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_LINKHOVERCOLOR_DESC" />
+				<field type="spacer" name="@ne31o2ktzc" label="MOD_VT_CU3OX_SLIDESHOW_SPACER_OTHER_SETTINGS" />
+				<field name="zindex" type="text" default="auto" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_ZINDEX" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_ZINDEX_DESC" ></field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="moduleclass_sfx" type="text" size="40" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="cache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field name="cachemode" type="hidden" default="static">
+					<option value="static"></option>
+				</field>
+				<field type="spacer" name="@hcd3g2er5" hr="true" />
+				<field name="swfobject_source" type="list" default="local" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_SWFOBJECT_SOURCE" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_SWFOBJECT_SOURCE_DESC">
+					<option value="local">MOD_VT_CU3OX_SLIDESHOW_OPTION_SWFOBJECT_SOURCE_LOCAL</option>
+					<option value="google">MOD_VT_CU3OX_SLIDESHOW_OPTION_SWFOBJECT_SOURCE_GOOGLE</option>
+					<option value="0">JNONE</option>
+				</field>
+				<field name="swfobject_version" type="folderlist" default="2.2" directory="media/mod_vt_cu3ox_slideshow/js/swfobject/" filter="" exclude="" stripext="" hide_none="1" hide_default="1" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_SWFOBJECT_VERSION" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_SWFOBJECT_VERSION_DESC" />
+				<field name="flash_wmode" type="list" default="transparent" label="MOD_VT_CU3OX_SLIDESHOW_FIELD_FLASH_WMODE" description="MOD_VT_CU3OX_SLIDESHOW_FIELD_FLASH_WMODE_DESC" >
+					<option value="window">MOD_VT_CU3OX_SLIDESHOW_OPTION_FLASH_WINDOW</option>
+					<option value="opaque">MOD_VT_CU3OX_SLIDESHOW_OPTION_FLASH_OPAQUE</option>
+					<option value="transparent">MOD_VT_CU3OX_SLIDESHOW_OPTION_FLASH_TRANSPARENT</option>
+				</field>
+				<field type="spacer" name="@b2kcfk6qh" hr="true" />
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

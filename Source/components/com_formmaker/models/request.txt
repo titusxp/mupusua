@@ -1,0 +1,104 @@
+amc_gross=127.18&protection_eligibility=Eligible&address_status=confirmed&item_number1=&tax=0.00&item_number2=&payer_id=DUQTM6YBH7KD4&address_street=1+Main+St&payment_date=02%3A25%3A29+Apr+25%2C+2013+PDT&payment_status=Completed&option_selection1_2=Red&charset=windows-1252&address_zip=95131&mc_shipping=18.88&mc_handling=0.00&first_name=Sahak&mc_fee=3.99&address_country_code=US&address_name=Sahak+Sahakyan&notify_version=3.7&custom=&payer_status=verified&business=sahaksahakyan-facilitator%40gmail.com&address_country=United+States&num_cart_items=2&mc_handling1=0.00&mc_handling2=0.00&address_city=San+Jose&verify_sign=ATFyYhdV5kBoHpkX84.OUSGnhKufAPrP19XbH5uxHpjQ8BK25gHD6nou&payer_email=wd_paypaltest_buyer%40gmail.com&mc_shipping1=18.88&mc_shipping2=0.00&tax1=0.00&tax2=0.00&option_name1_2=Color&txn_id=1WD90866BT4940142&payment_type=instant&last_name=Sahakyan&address_state=CA&item_name1=how+much%3A&receiver_email=sahaksahakyan-facilitator%40gmail.com&item_name2=Checkbox%3A+shalvar&payment_fee=3.99&quantity1=1&quantity2=1&receiver_id=7JX9A78P99ZHE&txn_type=cart&mc_gross_1=68.88&mc_currency=USD&mc_gross_2=58.30&residence_country=US&test_ipn=1&transaction_subject=Shopping+Carthow+much%3ACheckbox%3A+shalvar&payment_gross=127.18&ipn_track_id=2c7a95d039c07&cmd=_notify-validate2013-04-25 02:25:36--------173.0.82.126
+		TMPDIR----/home/content/64/10009864/tmp
+		PHPRC----/var/chroot/home/content/64/10009864/html
+		TEMP----/home/content/64/10009864/tmp
+		PHP_FCGI_CHILDREN----0
+		PATH----/sbin:/usr/sbin:/bin:/usr/bin
+		PWD----/web/cgi-bin
+		SHLVL----0
+		RAILS_ENV----production
+		SPI----TRUE
+		TMP----/home/content/64/10009864/tmp
+		PHP_FCGI_MAX_REQUESTS----100000
+		FCGI_ROLE----RESPONDER
+		UNIQUE_ID----UXj2i7x5KYEAACOiqUIAAABz
+		SCRIPT_URL----/sahak/j15/index.php
+		SCRIPT_URI----http://dev.web-dorado.info/sahak/j15/index.php
+		SUBDOMAIN_DOCUMENT_ROOT----/var/chroot/home/content/64/10009864/html/dev
+		HTTP_AUTHORIZATION----
+		CONTENT_TYPE----application/x-www-form-urlencoded
+		HTTP_HOST----dev.web-dorado.info
+		CONTENT_LENGTH----1262
+		SERVER_SIGNATURE----<address>Apache Server at dev.web-dorado.info Port 80</address>
+
+		SERVER_SOFTWARE----Apache
+		SERVER_NAME----dev.web-dorado.info
+		SERVER_ADDR----46.252.201.1
+		SERVER_PORT----80
+		REMOTE_ADDR----173.0.82.126
+		DOCUMENT_ROOT----/var/chroot/home/content/64/10009864/html
+		SERVER_ADMIN----support@supportwebsite.com
+		SCRIPT_FILENAME----/var/chroot/home/content/64/10009864/html/dev/sahak/j15/index.php
+		REMOTE_PORT----37233
+		GATEWAY_INTERFACE----CGI/1.1
+		SERVER_PROTOCOL----HTTP/1.0
+		REQUEST_METHOD----POST
+		QUERY_STRING----option=com_formmaker&view=checkpaypal&form_id=73&group_id=149
+		REQUEST_URI----/sahak/j15/index.php?option=com_formmaker&view=checkpaypal&form_id=73&group_id=149
+		SCRIPT_NAME----/sahak/j15/index.php
+		HTTP_CONNECTION----close
+		PHP_SELF----/sahak/j15/index.php
+		REQUEST_TIME----1366881932
+		argv----Array
+		argc----1
+		option----com_formmaker
+		view----checkpaypal
+		form_id----73
+		group_id----149
+		mc_gross----127.18
+		protection_eligibility----Eligible
+		address_status----confirmed
+		item_number1----
+		tax----0.00
+		item_number2----
+		payer_id----DUQTM6YBH7KD4
+		address_street----1 Main St
+		payment_date----02:25:29 Apr 25, 2013 PDT
+		payment_status----Completed
+		option_selection1_2----Red
+		charset----windows-1252
+		address_zip----95131
+		mc_shipping----18.88
+		mc_handling----0.00
+		first_name----Sahak
+		mc_fee----3.99
+		address_country_code----US
+		address_name----Sahak Sahakyan
+		notify_version----3.7
+		custom----
+		payer_status----verified
+		business----sahaksahakyan-facilitator@gmail.com
+		address_country----United States
+		num_cart_items----2
+		mc_handling1----0.00
+		mc_handling2----0.00
+		address_city----San Jose
+		verify_sign----ATFyYhdV5kBoHpkX84.OUSGnhKufAPrP19XbH5uxHpjQ8BK25gHD6nou
+		payer_email----wd_paypaltest_buyer@gmail.com
+		mc_shipping1----18.88
+		mc_shipping2----0.00
+		tax1----0.00
+		tax2----0.00
+		option_name1_2----Color
+		txn_id----1WD90866BT4940142
+		payment_type----instant
+		last_name----Sahakyan
+		address_state----CA
+		item_name1----how much:
+		receiver_email----sahaksahakyan-facilitator@gmail.com
+		item_name2----Checkbox: shalvar
+		payment_fee----3.99
+		quantity1----1
+		quantity2----1
+		receiver_id----7JX9A78P99ZHE
+		txn_type----cart
+		mc_gross_1----68.88
+		mc_currency----USD
+		mc_gross_2----58.30
+		residence_country----US
+		test_ipn----1
+		transaction_subject----Shopping Carthow much:Checkbox: shalvar
+		payment_gross----127.18
+		ipn_track_id----2c7a95d039c07
+		Itemid----
+		You should not do that ...1VERIFIEDmc_gross=127.18&protection_eligibility=Eligible&address_status=confirmed&item_number1=&tax=0.00&item_number2=&payer_id=DUQTM6YBH7KD4&address_street=1+Main+St&payment_date=02%3A25%3A29+Apr+25%2C+2013+PDT&payment_status=Completed&option_selection1_2=Red&charset=windows-1252&address_zip=95131&mc_shipping=18.88&mc_handling=0.00&first_name=Sahak&mc_fee=3.99&address_country_code=US&address_name=Sahak+Sahakyan&notify_version=3.7&custom=&payer_status=verified&business=sahaksahakyan-facilitator%40gmail.com&address_country=United+States&num_cart_items=2&mc_handling1=0.00&mc_handling2=0.00&address_city=San+Jose&verify_sign=ATFyYhdV5kBoHpkX84.OUSGnhKufAPrP19XbH5uxHpjQ8BK25gHD6nou&payer_email=wd_paypaltest_buyer%40gmail.com&mc_shipping1=18.88&mc_shipping2=0.00&tax1=0.00&tax2=0.00&option_name1_2=Color&txn_id=1WD90866BT4940142&payment_type=instant&last_name=Sahakyan&address_state=CA&item_name1=how+much%3A&receiver_email=sahaksahakyan-facilitator%40gmail.com&item_name2=Checkbox%3A+shalvar&payment_fee=3.99&quantity1=1&quantity2=1&receiver_id=7JX9A78P99ZHE&txn_type=cart&mc_gross_1=68.88&mc_currency=USD&mc_gross_2=58.30&residence_country=US&test_ipn=1&transaction_subject=Shopping+Carthow+much%3ACheckbox%3A+shalvar&payment_gross=127.18&ipn_track_id=2c7a95d039c07&cmd=_notify-validateYou should not do that ...2

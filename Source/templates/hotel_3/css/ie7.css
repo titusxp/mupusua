@@ -1,0 +1,65 @@
+/*****************************************
+		SITE  IE7-
+******************************************/
+
+.top_menu li a, .top_menu li span.separator {
+display:block;
+}
+
+.bottom_menu li {
+margin:0px 0 0 5px ;
+}
+
+.drop-down ul ul li a, .drop-down ul ul li span.separator {
+border-bottom : none !important;
+}
+
+
+
+.breadcrumbs a:first-child {
+display:inline;
+text-indent: 0px;
+background-image : none;
+width:auto;
+height:auto;
+margin: 0;
+}
+
+.breadcrumbs a:first-child:hover {
+background-image : none;
+}
+
+ul.actions li, .link ul li a, #form-login ul li a, #com-form-login ul li a, ul.mostread li a, ul.latestnews li a, .weblinks ul li a, ul.newsfeed li a,
+#___plusone_0, .pollstableborder tr .sectiontableentry1, .pollstableborder tr .sectiontableentry2,
+.categories-list dd, .categories-list dt, ul.pagenav li, div.mod-languages ul.lang-inline li,
+span.content_vote input, span.content_rating img , .pagination li, .top_menu li, .bottom_menu li, .horizontal_menu li, .drop-down li,
+.bottom_menu li a, #bottom_menu li span.separator, .horizontal_menu li a, .horizontal_menu li span.separator, .top_menu li a, #top_menu li span.separator {
+display:inline;
+zoom:1;
+}
+
+
+/**		contact form	**/
+
+.contact-form dt {
+width:100%;
+clear : both;
+}
+
+.contact-form dd {
+width:100%;
+}
+
+/** 	member registration 		*/
+
+#member-registration fieldset dt {
+float:none;
+width:auto;
+padding:3px 0px ;
+margin:10px 0 0 0;
+}
+
+#member-registration fieldset dd {
+float:none;
+padding:3px 0 ;
+}

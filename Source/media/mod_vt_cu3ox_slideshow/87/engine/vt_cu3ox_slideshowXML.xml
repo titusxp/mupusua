@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cu3ox>
+<Settings>
+  <imageWidth>900</imageWidth>
+  <imageHeight>200</imageHeight>
+  <segments>1</segments>
+  <tweenTime>1.5</tweenTime>
+  <tweenDelay>0.2</tweenDelay>
+  <tweenType>easeOutInCirc</tweenType>
+  <zDistance>20</zDistance>
+  <expand>20</expand>
+  <innerColor>0xFFFFFF</innerColor>
+  <textBackground>0xFFFFFF</textBackground>
+  <startBackground>0xFFFFFF</startBackground>
+  <noLogo>1</noLogo>
+  <shadowDarkness>100</shadowDarkness>
+  <textDistance>3</textDistance>
+  <autoplay>3</autoplay>
+  <rDirection>random</rDirection>
+  <borderRadius>5</borderRadius>
+  <descriptionWidth>200</descriptionWidth>
+  <descriptionHeight>50</descriptionHeight>
+  <descriptionOffset>100</descriptionOffset>
+  <descriptionType>upDown</descriptionType>
+  <logoText>© 2013 MUPUSUA</logoText>
+  <logoLink>crimsonlite.uphero.com</logoLink>
+  <noShadow>1</noShadow>
+  <showControls>true</showControls>
+  <startLogo>/mupusua/images/logo.png</startLogo>
+  <loop>1</loop>
+  <sound>/mupusua/</sound>
+</Settings>
+<Image Filename="/mupusua/images/slide/joomla_black.gif"><Settings><goLink target="_blank"/><rDirection/><segments>2</segments></Settings><Text><headline/><paragraph/></Text></Image><Image Filename="/mupusua/images/slide/joomla_green.gif"><Settings><goLink target="_blank"/><rDirection/><segments>9</segments></Settings><Text><headline/><paragraph/></Text></Image><Image Filename="/mupusua/images/slide/joomla_logo_black.jpg"><Settings><goLink target="_blank"/><rDirection/><segments>3</segments></Settings><Text><headline/><paragraph/></Text></Image><Image Filename="/mupusua/images/slide/logo.png"><Settings><goLink target="_blank"/><rDirection/><segments>10</segments></Settings><Text><headline/><paragraph/></Text></Image>
+</Cu3ox>

@@ -1,0 +1,523 @@
+@import url('moduly.css');
+@import url('modulyn.css');
+@import url('joomlastyl.css');
+@import url('modulyduze.css');
+@import url('menu-y.css');
+@import url('typografia.css');
+
+/*  Copyright:  (C) 10.2008 joomla-best.com. All Rights Reserved.
+//  License:	GNU/GPL 
+//  Website: 	http://www.joomla-best.com
+*/
+
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #555555;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+}
+
+#cient {
+	/*background: #98bdc6 url(../images/cientlo.png);*/
+}
+
+#cient1 {
+	text-align: left;
+	margin: 0 auto;
+}
+
+#cienp {
+}
+
+#cienl {
+}
+
+/* Paski */
+
+#stopka1 a {
+	color: #888888;
+	text-decoration: none;
+}
+
+#stopka1 a:hover,
+#stopka1 a:active,
+#stopka1 a:focus {
+
+	color: #666666;
+	text-decoration: none;
+}
+
+#naglowek1 a {
+	color: #555555;
+	text-decoration: underline;
+}
+
+#naglowek1 a:hover,
+#naglowek1 a:active,
+#naglowek1 a:focus {
+
+	color: #666666;
+	text-decoration: underline;
+}
+
+#naglowek3 a {
+	color: #888888;
+	text-decoration: none;
+}
+
+#naglowek3 a:hover,
+#naglowek3 a:active,
+#naglowek3 a:focus {
+
+	color: #666666;
+	text-decoration: none;
+}
+
+/* Panel */
+
+#paneltlo { 
+	background: #ffffff url(../images/modulyn/panel-y.gif) bottom repeat-x;
+	z-index: 6;
+}
+
+#panelnapist {
+	position: relative;
+	text-align: center;
+	width: 129px;
+	height: 30px;
+	background: url(../images/modulyn/topnazwa-y.png) no-repeat 0 0;
+	padding-top: 0px;
+	margin: 0px auto;
+	z-index: 7;
+}
+
+#panelmodul {
+	padding: 15px 10px 10px 10px;
+	color: #111111;
+}
+
+ul {
+	margin: 0px;
+	margin-left: 10px;
+	padding: 0px;
+}
+
+ul a:link, ul a:visited {
+	color: #27afd3;
+}
+
+ul a:hover {
+	text-decoration: none;
+	color: #179fc3;
+}
+
+a {
+	color: #333333;
+	text-decoration: none;
+}
+
+a:link {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #888888;
+	text-decoration: none;
+}
+
+a:focus {
+	color: #666666;
+	text-decoration: none;
+}
+
+td.contentdescription {
+	width: 100%;
+}
+
+.contentheading, td.contentheading {
+	font-size: 220%;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #27afd3;
+	text-align:left;
+}
+
+.componentheading {
+	padding: 0 0 15px 0;
+	margin-bottom: 15px;
+	font-family: Arial, Tahoma, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+
+div.componentheading {
+	font-size: 250%;
+	font-family: Arial, Tahoma, Sans-serif;
+	color: #222222;
+	text-align: left;
+	font-weight: normal;
+}
+
+a.contentpagetitle {
+	font-size: 110%;
+	font-family: Arial,Tahoma, Sans-serif;
+	color: #222222;
+	text-align: left;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+a.contentpagetitle:hover,
+a.contentpagetitle:active,
+a.contentpagetitle:focus {
+	color: #333333;
+	text-decoration: none;
+}
+
+/* Buttony, paski */
+
+.pagenav {
+	text-align: center;
+	font-size: 11px;
+	background: url(../images/tlobut.gif) #000000;
+	border-top: 1px solid #2F2F2F;
+	border-right: 1px solid #2F2F2F;
+	border-bottom: 1px solid #2F2F2F;
+	border-left: 1px solid #2F2F2F;
+	font-weight: normal;
+	color: #ffffff;
+	padding: 2px 2px;
+}
+
+.back_button {
+	padding: 2px 4px;
+	background: url(../images/tlobut.gif) #000000;
+	border-top: 1px solid #2F2F2F;
+	border-right: 1px solid #2F2F2F;
+	border-bottom: 1px solid #2F2F2F;
+	border-left: 1px solid #2F2F2F;
+	color: #ffffff;
+	width: 50px;
+}
+
+.back_button a:hover {
+	padding: 2px 4px;
+	color: #ffffff;
+}
+			
+.button {
+	padding: 2px 4px;
+	background: url(../images/tlobut.gif) #000000;
+	border-top: 1px solid #2F2F2F;
+	border-right: 1px solid #2F2F2F;
+	border-bottom: 1px solid #2F2F2F;
+	border-left: 1px solid #2F2F2F;
+	color: #ffffff;
+}
+
+.button:hover {
+
+	padding: 2px 4px;
+	border: 1px solid #939393;
+	background: url(../images/tlobut.gif) #000000;
+	color: #ffffff;
+}
+
+.button:active, .button:focus {
+
+	padding: 2px 4px;
+	border: 1px solid #939393;
+	background: url(../images/tlobut.gif) #000000;
+	color: #ffffff;
+
+}
+
+* html .button, *+html .button {
+	padding: 2px 4px !important;
+}
+
+a.readon {
+	float: left;
+	padding: 2px 4px 2px 8px;
+	border-top: 1px solid #2F2F2F;
+	border-right: 1px solid #2F2F2F;
+	border-bottom: 1px solid #2F2F2F;
+	border-left: 1px solid #2F2F2F;
+	display: block;
+	background: url(../images/tlobut.gif) #000000;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a.readon:hover, a.readon:active, a.readon:focus {
+	float: left;
+	padding: 2px 4px 2px 8px;
+	display: block;
+	border: 1px solid #939393;
+	background: url(../images/tlobut.gif) #000000;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+table.contenttoc {
+	margin: 0 0 10px 10px;
+	padding: 0;
+	width: 35%;
+}
+
+table.contenttoc a {
+}
+
+table.contenttoc td {
+	padding: 3px 5px 3px 22px;
+	background: url(../images/1arrow.png) no-repeat 10px 7px;
+	font-size: 100%;
+}
+
+table.contenttoc th {
+	/*padding: 10px;*/
+	padding: 2px 4px 2px 8px;
+	border-top: 1px solid #2F2F2F;
+	border-right: 1px solid #2F2F2F;
+	border-bottom: 1px solid #2F2F2F;
+	border-left: 1px solid #2F2F2F;
+	background: url(../images/tlobut.gif) repeat-x top #000000;
+	font-weight: normal;
+	text-indent: 5px;
+	color: #ffffff;
+}
+
+.sectiontableheader {
+	padding: 4px;
+	border-top: 1px solid #2F2F2F;
+	border-right: 1px solid #2F2F2F;
+	border-bottom: 1px solid #2F2F2F;
+	border-left: 1px solid #2F2F2F;
+	background: url(../images/tlobut.gif) repeat-x top #000000;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+#szukajka .button {
+	margin: 0px 0px 0px 0px;
+	padding: 3px 8px;
+	display: block;
+	float: right;
+	background: url(../images/tlobut.gif) #000000;
+	border-top: 1px solid #2F2F2F;
+	border-right: 1px solid #2F2F2F;
+	border-bottom: 1px solid #2F2F2F;
+	border-left: 1px solid #2F2F2F;
+	color: #ffffff;
+}
+
+#szukajka .button:hover {
+	margin: 0px 0px 0px 0px;
+	padding: 3px 8px;
+	border: 1px solid #939393;
+	background: url(../images/tlobut.gif) #000000;
+	color: #ffffff;
+}
+
+#szukajka .button:active, .button:focus {
+
+	margin: 0px 0px 0px 0px;
+	padding: 3px 8px;
+	border: 1px solid #939393;
+	background: url(../images/tlobut.gif) #000000;
+	color: #ffffff;
+}
+
+.inputbox {
+	margin-bottom: 2px;
+	padding: 2px 2px;
+	border: 2px solid #939393;
+	background: #ffffff;
+	color: #333333;
+}
+
+.inputbox:hover, .inputbox:focus {
+
+	margin-bottom: 2px;
+	padding: 2px 2px;
+	border: 2px solid #939393;
+	background: #ffffff;
+
+}
+
+/* Modu³ Menu */
+
+div.module-menu h3 {
+	background: url(../images/1arrowp.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #111111;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -26px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 40px;
+	text-align: left;
+}
+
+div.module-menu a {
+	color: #777777;
+	text-decoration: underline;
+	/*border-bottom: 1px solid #000000;*/
+}
+
+div.module-menu a:hover,
+div.module-menu a:active,
+div.module-menu a:focus {
+	text-decoration: underline;
+	color: #111111;
+}
+
+div.module-menu li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-menu li a {
+	padding-left: 14px;
+	padding-right: 4px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	color: #777777;
+	width: 90%;
+	display: block;
+	background: #fbfcfb url(../images/circlegr.gif) no-repeat center left;
+	text-decoration: none;
+	border-bottom: 1px solid #eeeeee;
+	/*border-top: 1px solid #222222;*/
+}
+
+div.module-menu li a:hover,
+div.module-menu li a:active,
+div.module-menu li a:focus {
+	background: url(../images/circlebl.gif) no-repeat center left;
+	text-decoration: none;
+	border-bottom: 1px solid #eeeeee;
+	/*border-top: 1px solid #dddddd;*/
+	color: #111111;
+}
+
+div.module-menu {
+	background: url(../images/moduly/boxm5-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #111111;
+}
+
+div.module-menu div {
+	background: url(../images/moduly/boxm5-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-menu div div {
+	background: url(../images/moduly/boxm5-bl.gif) bottom left no-repeat;
+}
+
+div.module-menu div div div {
+	background: url(../images/moduly/boxm5-br.gif) bottom right no-repeat;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: auto !important;
+}
+
+/* Modu³ bg ( background black) */
+
+div.module-bg h3 {
+	background: url(../images/1arrowz.gif) no-repeat 0px -2px;
+	font-family: Tahoma, Arial, Sans-serif;
+	color: #111111;
+	font-size: 16px;
+	font-weight: bold;
+	margin: -18px -6px 6px -12px;
+	padding-left: 25px;
+	line-height: 30px;
+	text-align:left;
+}
+
+div.module-bg a {
+	color: #999999;
+	text-decoration: underline;
+}
+
+div.module-bg a:hover,
+div.module-bg a:active,
+div.module-bg a:focus {
+	text-decoration: underline;
+	color: #111111;
+}
+
+div.module-bg li {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+
+div.module-bg li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #111111;
+	width: 90%;
+	display: block;
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+}
+
+div.module-bg li a:hover,
+div.module-bg li a:active,
+div.module-bg li a:focus {
+	background: url(../images/arrow.gif) no-repeat center left;
+	text-decoration: none;
+	color: #999999;
+}
+
+div.module-bg {
+	background: url(../images/moduly/boxb5b-tl.gif) top left no-repeat;
+	padding: 0px 0px 0px 0px;
+	margin: 5px;
+	height: 1%;
+	text-align: left;
+	color: #111111;
+}
+
+div.module-bg div {
+	background: url(../images/moduly/boxb5b-tr.gif) top right no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 1%;
+}
+
+div.module-bg div div {
+	background: url(../images/moduly/boxb5b-bl.gif) bottom left no-repeat;
+}
+
+div.module-bg div div div {
+	background: url(../images/moduly/boxb5b-br.gif) bottom right no-repeat;
+	padding: 20px;
+	width: auto;
+}

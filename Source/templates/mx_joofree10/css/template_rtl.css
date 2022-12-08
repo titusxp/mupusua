@@ -1,0 +1,48 @@
+html {
+	direction: rtl;
+}
+#logo { height: 56px; margin: 0.14em 0;float:right; }
+#system .item > .icon { 
+	margin: 8px 5px 0 2px;
+	float: left;
+}
+
+/* 4.5 Main navigation ----------------------------------------------------------------------------------------------- */
+
+#nav { z-index:100; position: relative; margin-top: 2px; margin-bottom: 10px; height: 2.5em; float:left; }
+#nav .moduletable { padding: 0; margin: 0; background: none; border: none; overflow: visible; }
+#nav .moduletable .menu li { background: none; }
+#nav ul { margin: 0; padding: 0; float:left; }
+#nav ul li { float: right; list-style: none; height: 2.5em; position:relative; }
+#nav ul li a { color: #000000; background-color: #eeeeee;  display:block; padding: 0 20px; margin: 0 0 0 3px; font-size: 1em; line-height: 3.3em; 
+-webkit-transition: all 300ms linear;
+-moz-transition: all 300ms linear;
+-o-transition: all 300ms linear;
+transition: all 300ms linear;
+	-webkit-box-shadow: 1px 2px 4px #999;
+	-moz-box-shadow: 1px 2px 4px #999;
+	box-shadow: 1px 2px 4px #999;
+}
+
+#nav ul li.active a, #nav ul li a:hover, #nav ul li:hover a, #nav ul li.sfHover a { background-color: #f5f5f5; text-decoration: none; }
+.lt-ie8 #nav { float: none; }
+
+/* Subnav */
+
+#nav li ul { background-color: #f1f1f1; border: 1px solid #ddd; border-bottom: none; width: 210px; position: absolute; left: 999em; }
+#nav li ul ul { margin:-36px 0 0 210px; }
+#nav li:hover ul, #nav li.sfHover ul { right: 0px; }
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li:hover ul ul ul ul, #nav li.sfHover ul ul, #nav li.sfHover ul ul ul, #nav li.sfHover ul ul ul ul { right: -999em; }
+#nav li li { padding: 0; height: auto; width: 210px; border-left:none; }
+#nav li li a, #nav li li.active a, #nav li li a:hover { height: 34px; font-size: 0.9em; line-height: 34px; border-bottom:1px solid #ddd; margin: 0; padding-left: 20px;text-align: right;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;   }
+#nav ul li:hover a, #nav ul li.sfHover a,  a.nav-mobile:hover, a.nav-mobile:focus, #nav-mobile li a:hover, #nav-mobile li a:focus { }
+#nav li li.active a, #nav li li li.active a, #nav li li li li.active a,#nav li li li li li.active a, #nav li li a:hover, #nav li li li a:hover, #nav li li li li a:hover, #nav li li li li li a:hover  { color: #777 ; background-color: #ddd; margin-right: 0; }
+#nav li li a, #nav li.active li a { font-weight: normal; text-transform: none; }
+#nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul, #nav li li.sfHover ul, #nav li li li.sfHover ul, #nav li li li li.sfHover ul { right:210px; }
+#nav select { display: none; }
+.lt-ie8 #nav ul li li:hover, .lt-ie8 #nav ul li li.hover { position: static; }
+.lt-ie9 #navbar, .lt-ie9 #nav-mobile,  .lt-ie9 #topnav-mobile, .lt-ie9 #backtotop-mobile { display: none; }
+

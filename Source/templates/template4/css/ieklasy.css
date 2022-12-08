@@ -1,0 +1,321 @@
+
+/*  Copyright:  (C) 10.2008 joomla-best.com. All Rights Reserved.
+//  License:	GNU/GPL 
+//  Website: 	http://www.joomla-best.com
+*/
+
+#cen9 {
+    text-align: left;
+	margin: 0 auto;
+	background: none;
+	border: 1px solid #111111;
+	z-index: 3;
+	height: 30px;
+}
+
+#cen0, #cen2, #roz1, #roz3, #cen6 {
+    background: none; 
+}
+
+#mtmenu {
+	padding: 0px 0px 0px 25px;
+	background: url(../images/1tlomenu.png) repeat-x top;
+	border-top: 0px solid #ff0000;
+	height: 34px;
+	float: left;
+	list-style: none;
+	margin: 0px;
+	z-index: 99;
+}
+
+#mtmenu li li {
+	float: left;
+	padding: 0;
+	margin: 0;
+	height: 34px;
+ 	width: 180px;
+}
+ 	
+#mtmenu li ul ul {
+	margin: -40px 0 0 180px;
+}
+
+#mtmenu li li.parent a.daddy,
+#mtmenu li.active li.parent a.daddy {
+	background: url(../images/arrowm.gif) center right no-repeat;
+}
+
+#mtmenu li li.parent:hover a.daddy,
+#mtmenu li.active li.parent:hover a.daddy,
+#mtmenu li li.parent-sfHover a.daddy,
+#mtmenu li.active li.parent-sfHover a.daddy {
+	background: url(../images/arrowm.gif) center right no-repeat;
+}
+
+#szukajka {
+	display: block;
+	float: right;
+	background: url(../images/modulyn/szukajka.gif) no-repeat;
+	height: 30px;
+	margin: 8px 5px 0px 0px;
+	width: 245px;
+}
+
+#pozycja #droga {
+	float: left;
+	padding: 10px 0px 0px 30px;
+	background: url(../images/sta1.gif) no-repeat 2px 10px;
+}
+
+
+form.mtlogin #mod_login_username {
+
+	background: url(../images/modulyn/user.gif) 0px 50% no-repeat;
+}
+	
+form.mtlogin #mod_login_password {
+
+	background: url(../images/modulyn/key.gif) 0px 50% no-repeat;
+}
+
+#paneltop {
+	position: absolute;
+	height: 1px;
+	padding-top: 0px;
+	z-index: 18;
+	width: 40%;
+	padding-left: 336px;
+}
+
+/*
+
+#paneltop {
+	position: relative;
+	height: 0px;
+	padding-top: 0px;
+	padding-left: 30%;
+	width: 40%;
+	z-index: 5;
+}
+*/
+
+#panela {
+	margin: 0px 5px 5px 5px;
+}
+
+*/
+
+#panelnapist {
+	position: absolute;
+	text-align: center;
+	width: 129px;
+	height: 30px;
+	background: url(../images/modulyn/topnazwa.gif) no-repeat 0 0;
+	padding-top: 0px;
+	z-index: 20;
+}
+
+#mtloginpanel {
+	padding-top: 30px;
+	float: right;
+	text-align: right;
+}
+
+
+#rek1, #rek5, #rek11, #rek111 {
+    background: none; 
+}
+
+#rek111 {
+    padding: 0;
+	margin: 1px 0px 1px 0px;
+	background: url(../images/1gallery.gif) no-repeat center 20px;
+	height: 1%;
+}
+
+#rek5, #rek1 {
+    text-align: left;
+	padding: 0 0 0 0;
+	margin: 0 auto;
+}
+
+.dl6box {
+	float: left;
+	overflow: hidden;
+	color: #777777;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+#szukajka .inputbox {
+	display: block;
+	float: left;
+	margin: 4px 0px 0px 10px;
+	padding: 4px 0px 0px 0px;
+	border: 0px solid #dddddd;
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 11px;
+	font-weight: lighter;
+	color: #ffffff;
+	vertical-align: middle;
+	height: 12px;
+	line-height: 12px;
+	background: none;
+	width: 140px;
+}
+
+#szukajka .button {
+	margin: 0px 0px 0px 0px;
+	padding: 3px 8px;
+	display: block;
+	float: right;
+	background: url(../images/tlobut.gif) #000000 ;
+	border-top: 1px solid #2F2F2F;
+	border-right: 1px solid #2F2F2F;
+	border-bottom: 1px solid #2F2F2F;
+	border-left: 1px solid #2F2F2F;
+	color: #ffffff;
+}
+
+#szukajka .button:hover {
+	margin: 0px 0px 0px 0px;
+	padding: 3px 8px;
+	border: 1px solid #555555;
+	background: url(../images/tlobut.gif) #000000 ;
+	color: #ffffff;
+}
+
+#szukajka .button:active, .button:focus {
+
+	margin: 0px 0px 0 0px;
+	padding: 3px 8px;
+	border: 1px solid #555555;
+	background: url(../images/tlobut.gif) #000000 ;
+	color: #ffffff;
+
+}
+
+.dlbox {
+	float: left;
+	overflow: hidden;
+	color: #444444;
+	padding: 0px;
+	margin: 0px;
+}
+
+.dlbox h3 {
+	margin-bottom: 5px;
+	text-indent: 3px;
+	font-size: 1.3em;
+	text-indent: 3px;
+	color: #444444;
+	
+}
+
+.dlbox div.moduletable {
+	margin: 0px;
+}
+
+.dlbox ul {
+	padding: 0px;
+	margin: 0!important;
+}
+
+.dlbox li {
+	padding: 0px;
+	margin: 0px;
+	background: none;
+}
+
+
+.dlbox li a {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 1px;
+	padding-bottom: 3px;
+	width: 99%;
+	display: block;
+	text-decoration: none;
+	color: #777777;
+}
+
+.dlbox li a:hover,
+.dlbox li a:active,
+.dlbox li a:focus {
+	text-decoration: none;
+	color: #777777;
+}
+
+.dlbox td {
+	padding: 0px;
+}
+
+.dlbox  .article_seperator {
+	display: none;
+}
+
+/* */
+
+/* Pokaz slajdów */
+
+#smodul {
+	margin: 0 auto;
+}
+
+#smodul h3 {
+	color: #ffffff;
+}
+
+#rozmiar {
+	width: 100%;
+	margin: 0px auto;
+	background: #555555; /*url(../images/modulyn/jakies_tlo.png);*/
+}
+
+.sli {
+	margin: 0px auto;
+	padding: 0px;
+	overflow: hidden;
+	background: #333333;
+	width: 100%;
+}
+
+.sli div {
+	margin: 0px auto;
+	padding: 0px;
+	width: 500%;
+	overflow: hidden; /* dla IE */
+}
+
+.sli div div {
+	width: 20%;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+.sli div div div {
+	padding: 0px;
+	text-align: left;
+	width: auto !important;
+}
+
+#sli .moduletable {
+	width: 99%;
+	padding: 1px;
+}
+
+.sguzik {
+	float: left;
+	width: 100%;
+	margin: 5px;
+	padding: 0px;
+}
+
+.sgoto {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}

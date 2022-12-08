@@ -1,0 +1,502 @@
+/*
+*		JoomSpirit CSS file for typo
+*/
+body {
+color:#4a2f28;
+font: normal 0.8em/1.4 arial, sans-serif;
+cursor: default;
+}
+
+p {
+margin: 0px 0 12px 0;
+}
+
+strong, bold {
+font-weight:bold;
+}
+em {
+font-style: italic;
+}
+small {
+font-size: 85%;
+}
+
+
+/** 	LOGO 		**/
+
+.website-title {
+font-size: 42px;
+line-height: 50px;
+text-transform: none;
+letter-spacing: 2px;
+font-weight: normal;
+margin:0;
+color:#fff;
+}
+
+.module-intro {
+font-size: 19px;
+text-transform: none;
+letter-spacing: 0px;
+font-weight: normal;
+color:#fff;
+text-shadow : 0px 0px 6px rgba(255,255,255, 0.40) ;
+}
+
+.dark_shadow {
+text-shadow : 1px 1px 6px #000;
+}
+
+.light_shadow {
+text-shadow : 1px 1px 6px #fff;
+}
+
+
+
+/**		TITLE		**/
+
+h1, h2, h3, h4 {
+padding:20px 0 8px 0;
+font-weight:normal;
+line-height:1.4;
+text-rendering: optimizelegibility;
+}
+h1, .componentheading {
+display: block;
+font-size: 220%;
+margin: 0px 4px 14px 0;
+padding : 0 0 2px 0;
+letter-spacing:0px;
+color:#333;
+background: transparent url(../images/underline.png) 0 100% repeat-x;
+}
+h1 a {
+color:#333;
+text-decoration: none;
+}
+h1 a:hover {
+color:#333;
+text-decoration: none;
+}
+
+.blog > h1 {
+color : #333;
+}
+
+h2 {
+font-size:140%;
+margin-bottom:8px;
+color:#000;
+}
+
+h2 a {
+color:#000;
+text-decoration: none;
+}
+h2 a:hover {
+text-decoration: none;
+color:#666;
+}
+
+h3 {
+font-size:115%;
+font-weight:bold;
+color:#666;
+}
+h4 {
+font-size:110%;
+color:#444;
+}
+h5 {
+font-size:100%;
+}
+
+/** title blog 	**/
+
+h2.contentheading {
+font-size:155%;
+padding: 4px 9px ;
+color:#333;
+background: transparent url(../images/black-04.png) 0 0 repeat;
+}
+
+/**		modules		**/
+
+.left_column h3, .right-module-position h3, .top-module-position h3, .bottom-module-position h3,
+.user1 h3, .user2 h3, .user3 h3, .user4 h3, .user5 h3, .user6 h3, .user7 h3, .user8 h3, .user9 h3,
+.user_image1 h3, .user_image2 h3, .user_image3 h3 {
+margin:0px 0 14px 0;
+padding: 0px 0 4px 2px;
+font-weight:normal;
+font-variant : small-caps ;
+letter-spacing:0px;
+font-size:140%;
+color:#222;
+text-shadow: 1px 1px 0 rgba(255,255,255, 0.8);
+background: transparent url(../images/underline.png) 0 100% repeat-x;
+-webkit-transition : color 0.4s ease-in-out;
+-moz-transition : color 0.4s ease-in-out;
+-ms-transition : color 0.4s ease-in-out;
+-o-transition : color 0.4s ease-in-out;
+transition : color 0.4s ease-in-out;
+}
+
+.moduletable.title-red h3 {
+color:#ce534c;
+}
+
+.moduletable.title-black h3 {
+color:#000;
+}
+
+.moduletable.title-green h3 {
+color:#009966;
+}
+
+.moduletable.title-orange h3 {
+color:#ff6600;
+}
+
+.moduletable.title-blue h3 {
+color:#0056ca;
+}
+
+
+
+/**			LINK		**/
+
+a {
+color:#c35d1e;
+text-decoration : none;
+-webkit-transition : color 0.4s linear 0.1s;
+-moz-transition : color 0.4s linear 0.1s;
+-ms-transition : color 0.4s linear 0.1s;
+-o-transition : color 0.4s linear 0.1s;
+transition : color 0.4s linear 0.1s;
+}
+a:hover {
+color:#444;
+text-decoration : none;
+-webkit-transition : color 0.2s linear 0s;
+-moz-transition : color 0.2s linear 0s;
+-ms-transition : color 0.2s linear 0s;
+-o-transition : color 0.2s linear 0s;
+transition : color 0.2s linear 0s;
+}
+a:active, a:focus {
+outline:none;
+}
+
+
+li span.separator {
+cursor:default;
+}
+
+/*	Pathway	*/
+.breadcrumb a, .breadcrumb {
+color:#999;
+text-decoration:none;
+}
+.breadcrumb a:hover {
+color:#c35d1e;
+text-decoration:none;
+}
+
+
+/*	List  */
+
+.main_component ul, .blog_more ul, ul.normal, ul.check, ul.arrow, ul.normal_green, ul.check_green, ul.arrow_green, ul.circle, ul.circle_red,
+ul.normal_red, ul.check_red, ul.arrow_red, ul.normal_white, ul.check_white, ul.arrow_white, ul.circle_white  {
+margin: 10px 0 16px 6px;
+}
+.main_component ul li, .blog_more ul li, .normal li, .check li, .arrow li, .normal_red li, .check_red li, .arrow_red li, .circle li,
+.circle_red li, .normal_white li, .check_white li, .arrow_white li, .circle_white li  {
+background: url(../images/list_bullet.png) 0 3px no-repeat;
+padding-left: 21px;
+list-style:none;
+margin:7px 0;
+}
+
+.main_component ul ul, ul.normal ul, ul.check ul, ul.arrow ul, ul.normal_red ul, ul.check_red ul, ul.arrow_red ul, ul.circle ul, 
+ul.circle_red ul, ul.normal_white ul, ul.check_white ul, ul.arrow_white ul, ul.circle_white ul {
+margin-left: 0px;
+margin-top:4px;
+padding-left:0;
+}
+.main_component ul li li, .normal li li, .check li li, .arrow li li, .normal_red li li, .check_red li li , .arrow_red li li , .circle li li, 
+.circle_red li li, .circle_white li li, .check_white li li, .arrow_white li li, .normal_white li li  {
+background: url(../images/list_bullet.png) 0 3px no-repeat;
+padding-left: 18px;
+list-style:none;
+margin:5px 0;
+}
+
+.check li {
+background: url(../images/list_check.png) 0 0px no-repeat !important;
+}
+.arrow li {
+background: url(../images/list_arrow.png) 0 0px no-repeat !important;
+}
+.arrow_red li {
+background: url(../images/list_arrow_red.png) 0 0px no-repeat !important;
+}
+.check_red li {
+background: url(../images/list_check_red.png) 0 0px no-repeat !important;
+}
+
+
+ol {
+margin: 5px 0 0 6px;
+background-color: transparent;
+padding: 0 0 0 20px;
+}
+
+ol li {
+margin: 0;
+padding: 1px 5px;
+font-weight: normal;
+}
+
+ul li > h2, ul li > h3, ul li > h4 {
+margin-top : 0;
+padding-top:0;
+}
+
+/**		 List with links 		**/
+
+.vertical_menu ul, #login-form ul, #form-login ul, #com-form-login ul, ul.mostread, ul.latestnews, .webvertical_menus ul, ul.newsfeed {
+margin : 0 ;
+}
+
+.vertical_menu ul li, #login-form ul li, #form-login ul li, #com-form-login ul li, ul.mostread li, ul.latestnews li, .webvertical_menus ul li, ul.newsfeed li {
+background-image : none !important;
+padding:0 !important;
+margin:0 !important;
+list-style:none;
+}
+
+.vertical_menu ul li a, #login-form ul li a, #form-login ul li a, #com-form-login ul li a, ul.mostread li a, ul.latestnews li a, .webvertical_menus ul li a, ul.newsfeed li a {
+background : transparent url(../images/list-bullet.png) 0 7px no-repeat;
+}
+
+.vertical_menu ul li a, #login-form ul li a, #form-login ul li a, #com-form-login ul li a, ul.mostread li a, ul.latestnews li a, .webvertical_menus ul li a, ul.newsfeed li a {
+display: inline-block;
+font-size: 100%;
+font-weight: normal;
+line-height: 100%;
+padding: 4px 0 4px 15px;
+}
+
+.vertical_menu ul li a {
+font-size:110%;
+line-height:130%;
+padding: 2px 0 4px 15px;
+}
+
+.vertical_menu ul li a:hover, #login-form ul li a:hover, #form-login ul li a:hover, #com-form-login ul li a:hover, ul.mostread li a:hover, ul.latestnews li a:hover, .webvertical_menus ul li a:hover, ul.newsfeed li a:hover,
+.vertical_menu ul li.current > a, #login-form ul li.current > a, #form-login ul li.current > a, #com-form-login ul li.current > a, ul.mostread li.current > a, ul.latestnews li.current > a, .webvertical_menus ul li.current > a, ul.newsfeed li.current > a {
+background-position: 0 -37px;
+color:#222;
+}
+
+
+.vertical_menu ul ul {
+margin-left : 8px ;
+}
+
+.vertical_menu ul li li a {
+background-image: url(../images/list-bullet-subitems.png);
+}
+
+.vertical_menu ul li li a {
+background-position: 0 9px;
+background-repeat: no-repeat;
+font-size: 90%;
+color: #888;
+padding: 3px 0 3px 10px;
+}
+
+.vertical_menu ul li li a:hover, .vertical_menu ul li li.current > a {
+background-position: 0 -20px;
+color:#222;
+}
+
+.vertical_menu ul li li li a {
+background-image: none;
+}
+
+
+/*
+*	Quotation
+*/
+
+blockquote {
+padding: 0 0 0 15px;
+margin: 0 0 20px;
+border-left: 5px solid #eeeeee;
+border-color: rgba(0,0,0,0.07);
+}
+blockquote p {
+margin-bottom: 0;
+font-size: 110%;
+font-weight: 300;
+line-height: 1.4;
+}
+blockquote small {
+display: block;
+line-height: 2.5;
+color: #999999;
+}
+blockquote small:before {
+content: '\2014 \00A0';
+}
+blockquote.pull-right {
+float: right;
+padding-right: 15px;
+padding-left: 0;
+border-right: 5px solid #eeeeee;
+border-left: 0;
+}
+blockquote.pull-right p, blockquote.pull-right small {
+text-align: right;
+}
+blockquote.pull-right small:before {
+content: '';
+}
+blockquote.pull-right small:after {
+content: '\00A0 \2014';
+}
+q:before, q:after, blockquote:before, blockquote:after {
+content: "";
+}
+
+
+
+/**		Message & Info		**/
+
+.jmessage {
+background-color : #f6f6f6;
+background-color : rgba(0,0,0,0.04);
+border : 1px dotted #bbb;
+padding:14px 12px 8px 12px ;
+margin-bottom:20px;
+-moz-box-shadow:2px 2px 4px #ccc;
+-webkit-box-shadow:2px 2px 4px #ccc;
+box-shadow:2px 2px 4px #ccc;
+margin-right:4px;
+}
+
+.jmessage:hover {
+background-color : #f4f4f4;
+background-color : rgba(0,0,0,0.06);
+-moz-box-shadow:2px 2px 4px #bbb;
+-webkit-box-shadow:2px 2px 4px #bbb;
+box-shadow:2px 2px 4px #bbb;
+}
+
+
+/**	login	**/
+
+#form-login-username label, #form-login-password label {
+display : block;
+font-size:96%;
+margin:7px 0 4px 0;
+}
+
+#form-login-username input, #form-login-password input {
+margin-bottom:0;
+height:auto;
+line-height:inherit;
+}
+
+#modlgn-username, #modlgn-password, #modlgn-passwd {
+max-width : 75%;
+}
+
+#submit-login {
+float:left;
+font-size:90%;
+}
+
+p#form-login-username {
+margin:0;
+}
+p#form-login-password {
+margin: 2px 0 6px 0;
+}
+#modlgn_remember {
+background-color:transparent;
+border:none;
+}
+
+#form-login-remember {
+clear:both;
+margin:0;
+}
+
+#form-login-remember input {
+display : inline-block;
+margin:-5px 5px 0 0;
+}
+
+#form-login-remember label {
+display : inline-block;
+font-size:90%;
+margin:0;
+}
+
+#submit_login {
+margin:10px 0 16px 0;
+}
+
+.link_login {
+clear:both;
+padding-top:10px;
+}
+
+.icon_login {
+clear:both;
+}
+
+/**	read more	**/
+
+p.readmore {
+height : 20px;
+}
+
+/**		FOOTER		**/
+
+.website-footer {
+color : #fff;
+font-size: 1.2em;
+}
+
+#address p {
+text-align:left;
+font-size:90%;
+text-transform:none;
+font-variant:small-caps;
+}
+
+
+/**	images	**/
+
+img.border {
+padding : 4px ;
+border : 1px solid #bdbcb8 ;
+}
+
+.shadow {
+margin: 4px;
+-moz-box-shadow : 2px 2px 6px #888;
+-webkit-box-shadow : 2px 2px 6px #888;
+box-shadow : 2px 2px 6px #888;
+border:4px solid #eee;
+}
+
+a .shadow:hover {
+border-color : #aaa ;
+-moz-box-shadow : 2px 2px 6px #bbb;
+-webkit-box-shadow : 2px 2px 6px #bbb;
+box-shadow : 2px 2px 6px #bbb;
+}

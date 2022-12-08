@@ -1,0 +1,524 @@
+
+/*  Copyright:  (C) 10.2008 joomla-best.com. All Rights Reserved.
+//  License:	Copyrighted Commercial Software 
+//  Website: 	http://www.joomla-best.com
+*/
+
+
+h1 {
+	font-size: 24px;
+	color: #b33131;
+	font-family: Helvetica, sans-serif, Arial, Tahoma;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 24px;
+	color: #27afd3;
+	font-family: Helvetica, sans-serif, Arial, Tahoma;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 24px;
+	color: #222222;
+	font-family: Helvetica, sans-serif, Arial, Tahoma;
+	font-weight: normal;
+}
+
+h4 {
+	font-family: Helvetica, sans-serif, Arial, Tahoma;
+	font-weight: normal;
+	color: #56a81f;
+	/*color: #65b43a;*/
+	font-size: 24px;
+}
+
+h5 {
+	font-family: Helvetica, sans-serif, Arial, Tahoma;
+	font-weight: normal;
+	color: #99a0a9;
+	font-size: 24px;
+}
+
+h6 {
+	font-family: Helvetica, sans-serif, Arial, Tahoma;
+	font-weight: normal;
+	color: #222222;
+	font-size: 24px;
+	/*font-weight: bold;*/
+	/*text-transform: uppercase;*/
+}
+
+
+p, pre, blockquote, ul, ol, h1, h2, h3, h4, h5, h6 {
+	margin: 10px 0;
+	padding: 0;
+}
+
+pre {
+	padding: 10px 15px;
+	margin: 5px 0px 15px 0px;
+	border-left: 5px solid #b33131;
+	background: #f4f5f4;
+	color: #b33131;
+}
+
+.code {
+	padding: 10px 15px;
+	margin: 5px 0px 15px 0px;
+	border-left: 5px solid #b33131;
+	background: #f4f5f4;
+	color: #b33131;
+}
+
+blockquote {
+	padding: 0px 0px 5px 25px;
+	color: #666666;
+	font-style: italic;
+	font-size: 120%;
+	line-height: 150%;
+	width: auto;
+	margin: 15px 0px;
+	background: url(../images/typografia/cudzgora.gif) left top no-repeat;
+}
+
+blockquote p {
+	padding: 0px 25px 5px 0px;
+	margin: 0px 15px;
+	background: url(../images/typografia/cudzdol.gif) right bottom no-repeat;
+}
+
+
+.dropcap {
+	float: left;
+	padding: 6px 8px 0px 0px;
+	display: block;
+	color: #b33131;
+	font-size: 40px; 
+	font-family: Helvetica, Verdana, Tahoma, Arial, Sans-serif;
+	font-weight: normal;
+}
+
+
+.highlight {
+	border-bottom: 0px dashed #ff0000;
+	padding: 0 5px;
+	background: #f4f5f4;
+	color: #2bb1d3;
+	font-weight: normal;
+}
+
+
+.input {
+	padding:0;
+	margin:0;
+	border:none;
+}
+
+
+.invalid { 
+	border-color: #ff0000; 
+}
+
+label.invalid {
+	color: #ff0000; 
+}
+	
+	
+label { 
+	font-weight: bold;
+}
+
+
+/* System Standard Messages */
+
+#system-message { margin-bottom: 15px; }
+#system-message dt.message { display: none; }
+#system-message dd.message ul { 
+	padding: 10px 5px 10px 40px;
+    color: #1ba1c3;
+	border-top: 4px solid #2bb1d3;
+	background: url(../images/typografia/info.png) 3px 50% no-repeat;
+	height: 100%;
+}
+
+
+/* System Error Messages */
+
+#system-message dt.error { display: none; }
+#system-message dd.error ul {
+	padding: 10px 5px 10px 40px;
+    color: #b33131;
+	border-top: 4px solid #b33131;
+	background: url(../images/typografia/error.png) 3px 50% no-repeat;
+	height: 100%;
+}
+
+.errors {
+	padding: 10px 5px 10px 40px;
+    color: #b33131;
+	border-top: 4px solid #b33131;
+	background: url(../images/typografia/error.png) 3px 50% no-repeat;
+	height: 100%;
+}
+
+/* System Notice Messages */
+
+#system-message dt.notice { display: none; }
+#system-message dd.notice ul {
+	padding: 10px 5px 10px 40px;
+    color: #1ba1c3;
+	border-top: 4px solid #2bb1d3;
+	background: url(../images/typografia/info.png) 3px 50% no-repeat;
+	height: 100%;
+}
+
+.info {
+	padding: 10px 5px 10px 40px;
+    color: #1ba1c3;
+	border-top: 4px solid #2bb1d3;
+	background: url(../images/typografia/info.png) 3px 50% no-repeat;
+	height: 100%;	
+}
+
+.cred {
+	
+	padding: 10px 5px 10px 5px;
+    color: #ffffff;
+	border-top: 3px solid #e36161;
+	border-bottom: 3px solid #e36161;
+	background: #b33131;
+	height: 100%;	
+}
+
+.cred1 {
+	
+	padding: 10px 5px 10px 5px;
+    color: #a32121;
+    border-top: 3px solid #b33131;
+    border-bottom: 3px solid #b33131;
+	background: #e27171;
+	height: 100%;
+}
+
+.cgrey {
+	
+	padding: 10px 5px 10px 5px;
+    color: #333333;
+	border-top: 3px solid #eef0f0;
+	border-bottom: 3px solid #eef0f0;
+	background: #f6f8f8;
+	height: 100%;	
+}
+
+.cblue {
+	
+	padding: 10px 5px 10px 5px;
+    color: #ffffff;
+	border-top: 3px solid #c1effa;
+	border-bottom: 3px solid #c1effa;
+	background: #2bb1d3;
+	height: 100%;
+}
+
+.cgreen {
+	
+	padding: 10px 5px 10px 5px;
+    color: #ffffff;
+	border-top: 3px solid #98d271;
+	border-bottom: 3px solid #98d271;
+	background: #66b82f;
+	height: 100%;	
+}
+
+.cblack {
+	
+	padding: 10px 5px 10px 5px;
+    color: #ffffff;
+	border-top: 3px solid #6e6e6e;
+	border-bottom: 3px solid #6e6e6e;
+	background: #333333;
+	height: 100%;	
+}
+
+.cgreen1 {
+	
+	padding: 10px 5px 10px 5px;
+    color: #2d7f2c;
+	border-top: 3px solid #66b82f;
+	border-bottom: 3px solid #66b82f;
+	background: #98d271;
+	height: 100%;	
+}
+
+.cblue1 {
+	
+	padding: 10px 5px 10px 5px;
+    color: #047398;
+	border-top: 3px solid #2bb1d3;
+	border-bottom: 3px solid #2bb1d3;
+	background: #c1effa;
+	height: 100%;
+}
+
+.cwhite {
+	
+	padding: 10px 5px 10px 5px;
+	color: #333333;
+	border-top: 3px solid #2bb1d3;
+	border-bottom: 3px solid #2bb1d3;
+	background: #ffffff;
+	height: 100%;	
+}
+
+.tools {
+	
+	padding: 10px 5px 10px 40px;
+    color: #333333;
+	border: 2px solid #333333;
+	background: #F5EDD8 url(../images/typografia/narzedzia.png) 3px 50% no-repeat;
+	height: 100%;
+}
+
+.comment {
+	padding: 10px 5px 10px 40px;
+    color: #333333;
+    border: 2px solid #2bb1d3;
+	background: #F5EDD8 url(../images/typografia/komentarz.png) 3px 50% no-repeat;
+	height: 100%;
+}
+
+.pin {
+	padding: 10px 5px 10px 40px;
+    color: #ffffff;
+    border: 2px solid #b33131;
+	background: #b33131 url(../images/typografia/pinezka.png) 3px 50% no-repeat;
+	height: 100%;
+	
+}
+
+.pinb {
+	padding: 10px 5px 10px 40px;
+    color: #ffffff;
+    border: 2px solid #2bb1d3;
+	background: #2bb1d3 url(../images/typografia/pinezka1.png) 3px 50% no-repeat;
+	height: 100%;
+	
+}
+
+.ping {
+	padding: 10px 5px 10px 40px;
+    color: #ffffff;
+    border: 2px solid #66b82f;
+	background: #66b82f url(../images/typografia/pinezka2.png) 3px 50% no-repeat;
+	height: 100%;
+	
+}
+
+.audio {
+	padding: 10px 5px 10px 40px;
+	color: #333333;
+	border: 2px solid #333333;
+	background: #F5EDD8 url(../images/typografia/audio.png) 3px 50% no-repeat;
+	height: 100%;
+}
+
+.movie {
+	padding: 10px 5px 10px 40px;
+	color: #333333;
+	border: 2px solid #333333;
+	background: #F5EDD8 url(../images/typografia/movie.png) 3px 50% no-repeat;
+	height: 100%;
+}
+
+.shop {
+	padding: 10px 5px 10px 40px;
+	color: #333333;
+	border: 2px solid #333333;
+	background: #F5EDD8 url(../images/typografia/sklep.png) 3px 50% no-repeat;
+	height: 100%;
+}
+
+.phone {
+	padding: 10px 5px 10px 40px;
+    color: #333333;
+	border: 2px solid #333333;
+	background: #F5EDD8 url(../images/typografia/telefon.png) 3px 50% no-repeat;
+	height: 100%;
+	
+}
+
+.download {
+	padding: 10px 5px 10px 40px;
+    color: #333333;
+	border: 2px solid #333333;
+	background: #F5EDD8 url(../images/typografia/download.png) 3px 50% no-repeat;
+	height: 100%;
+}
+
+.success {
+	
+	padding: 10px 5px 10px 40px;
+    color: #1ba1c3;
+	border-top: 4px solid #2bb1d3;
+	/*border-bottom: 0px solid #2bb1d3;*/
+	background: url(../images/typografia/sukces.png) 3px 50% no-repeat;
+	height: 100%;	
+}
+
+.bignumber {
+
+	clear: both;
+	position: relative;
+	padding: 5px 15px 10px 15px;
+	position: relative;
+}
+
+.number-r {
+	
+	display: block;
+	float: left;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 10px 5px 0px;
+	background-position: 0px 0px;
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #b33131;
+	line-height: normal;
+}
+
+.number-c {
+	
+	display: block;
+	float: left;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 10px 5px 0px;
+	background-position: 0px 0px;
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #222222;
+	line-height: normal;
+}
+
+.number-b {
+	
+	display: block;
+	float: left;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 10px 5px 0px;
+	background-position: 0px 0px;
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #2bb1d3;
+	line-height: normal;
+}
+
+.number-g {
+	
+	display: block;
+	float: left;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 10px 5px 0px;
+	background-position: 0px 0px;
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #66b82f;
+	line-height: normal;
+}
+
+.number-y {
+	
+	display: block;
+	float: left;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 10px 5px 0px;
+	background-position: 0px 0px;
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #99a0a9;
+	line-height: normal;
+}
+
+ul.check-r,
+ul.check-c,
+ul.check-b,
+ul.check-g,
+ul.check-y {
+
+	list-style: none;
+}
+
+ul.check-r li {
+	background: url(../images/typografia/check-r.png)  no-repeat 0px 2px;
+	padding-left: 25px;
+	margin-left: 10px;
+}	
+
+ul.check-c li {
+	background: url(../images/typografia/check-c.png)  no-repeat 0px 2px;
+	padding-left: 25px;
+	margin-left: 10px;
+}	
+
+ul.check-b li {
+	background: url(../images/typografia/check-b.png)  no-repeat 0px 2px;
+	padding-left: 25px;
+	margin-left: 10px;
+}	
+
+ul.check-g li {
+	background: url(../images/typografia/check-g.png)  no-repeat 0px 2px;
+	padding-left: 25px;
+	margin-left: 10px;
+}	
+
+ul.check-y li {
+	background: url(../images/typografia/check-y.png)  no-repeat 0px 2px;
+	padding-left: 25px;
+	margin-left: 10px;
+}	
+
+ul.circle-r,
+ul.circle-c,
+ul.circle-b,
+ul.circle-g,
+ul.circle-y {
+
+	list-style: none;
+}
+
+ul.circle-r li {
+	background: url(../images/typografia/cir-r.png)  no-repeat 0px 5px;
+	padding-left: 20px;
+	margin-left: 15px;
+}	
+
+ul.circle-c li {
+	background: url(../images/typografia/cir-c.png)  no-repeat 0px 5px;
+	padding-left: 20px;
+	margin-left: 15px;
+}	
+
+ul.circle-b li {
+	background: url(../images/typografia/cir-b.png)  no-repeat 0px 5px;
+	padding-left: 20px;
+	margin-left: 15px;
+}	
+
+ul.circle-g li {
+	background: url(../images/typografia/cir-g.png)  no-repeat 0px 5px;
+	padding-left: 20px;
+	margin-left: 15px;
+}	
+
+ul.circle-y li {
+	background: url(../images/typografia/cir-y.png)  no-repeat 0px 5px;
+	padding-left: 20px;
+	margin-left: 15px;
+}

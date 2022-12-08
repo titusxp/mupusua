@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0"  method="upgrade">
+  <name>com_rsgallery2</name>
+  <creationDate>31 July 2012</creationDate>
+  <author>RSGallery2 Team</author>
+  <copyright>This component is released under the GNU/GPL License</copyright>
+  <authorEmail>team@rsgallery2.nl</authorEmail>
+  <authorUrl>http://www.rsgallery2.nl</authorUrl>
+  <version>3.2.0</version>
+  <description>COM_RSGALLERY2_XML_DESCRIPTION</description>
+
+  <files folder="site">
+    <folder>flash</folder>
+    <folder>images</folder>
+	<folder>lib</folder>
+    <folder>templates</folder>
+    <folder>views</folder>
+	<filename>index.html</filename>
+    <filename>main.rsgallery2.php</filename>
+	<filename>picklist.js</filename>
+	<filename>router.php</filename>
+	<filename>rsgallery.css</filename>
+    <filename>rsgallery2.php</filename>
+    <filename>slideshow.rsgallery2.php</filename>
+  </files>
+
+  <installfile>install.rsgallery2.php</installfile>
+  <uninstallfile>uninstall.rsgallery2.php</uninstallfile>
+
+  <languages folder="languages">
+    <language tag="da-DK">da-DK.com_rsgallery2.ini</language>
+	<language tag="de-DE">de-DE.com_rsgallery2.ini</language>
+	<language tag="el-GR">el-GR.com_rsgallery2.ini</language>
+	<language tag="en-GB">en-GB.com_rsgallery2.ini</language>
+	<language tag="es-ES">es-ES.com_rsgallery2.ini</language>
+	<language tag="fa-IR">fa-IR.com_rsgallery2.ini</language>
+    <language tag="fi-FI">fi-FI.com_rsgallery2.ini</language>
+    <language tag="fr-FR">fr-FR.com_rsgallery2.ini</language>
+    <language tag="he-IL">he-IL.com_rsgallery2.ini</language>
+	<language tag="hr-HR">hr-HR.com_rsgallery2.ini</language>
+	<language tag="hu-HU">hu-HU.com_rsgallery2.ini</language>
+    <language tag="it-IT">it-IT.com_rsgallery2.ini</language>
+    <language tag="nb-NO">nb-NO.com_rsgallery2.ini</language>
+	<language tag="nl-NL">nl-NL.com_rsgallery2.ini</language>
+    <language tag="pt-BR">pt-BR.com_rsgallery2.ini</language>
+	<language tag="sl-SI">sl-SI.com_rsgallery2.ini</language>
+	<language tag="tr-TR">tr-TR.com_rsgallery2.ini</language>
+  </languages>
+
+  <administration>
+    <menu view="com_rsgallery2" img="components/com_rsgallery2/images/rsg2_menu.png">com_rsgallery2</menu>
+    <submenu>
+	  <!-- Note that all & must be escaped to &amp; for the file to be valid XML and be parsed by the installer -->
+      <menu view="COM_RSGALLERY2_MENU_CONTROL_PANEL" link="option=com_rsgallery2" img="class:config">COM_RSGALLERY2_MENU_CONTROL_PANEL</menu>
+      <menu view="COM_RSGALLERY2_MENU_BATCH_UPLOAD" link="option=com_rsgallery2&amp;rsgOption=images&amp;task=batchupload">COM_RSGALLERY2_MENU_BATCH_UPLOAD</menu>
+      <menu view="COM_RSGALLERY2_MENU_UPLOAD" link="option=com_rsgallery2&amp;rsgOption=images&amp;task=upload">COM_RSGALLERY2_MENU_UPLOAD</menu>
+      <menu view="COM_RSGALLERY2_MENU_GALLERIES" link="option=com_rsgallery2&amp;rsgOption=galleries">COM_RSGALLERY2_MENU_GALLERIES</menu>
+      <menu view="COM_RSGALLERY2_MENU_ITEMS" link="option=com_rsgallery2&amp;rsgOption=images">COM_RSGALLERY2_MENU_ITEMS</menu>
+    </submenu>
+
+    <files folder="admin">
+	  <folder>fonts</folder>
+	  <folder>help</folder>
+	  <folder>helpers</folder>
+	  <folder>images</folder>
+      <folder>includes</folder>
+	  <folder>models</folder>
+      <folder>options</folder>
+      <folder>sql</folder>
+	  <filename>access.xml</filename>
+      <filename>admin.rsgallery2.css</filename>
+      <filename>admin.rsgallery2.html.php</filename>
+      <filename>admin.rsgallery2.php</filename>
+      <filename>changelog.php</filename>
+      <filename>config.rsgallery2.php</filename>
+      <filename>config.xml</filename>
+	  <filename>index.html</filename>
+	  <filename>init.rsgallery2.php</filename>
+      <filename>toolbar.rsgallery2.html.php</filename>
+      <filename>toolbar.rsgallery2.php</filename>
+    </files>
+
+    <languages>
+		<!-- Note: .ini for front and backend-->
+		<language tag="da-DK">languages/da-DK.com_rsgallery2.ini</language>
+		<language tag="de-DE">languages/de-DE.com_rsgallery2.ini</language>
+		<language tag="el-GR">languages/el-GR.com_rsgallery2.ini</language>
+		<language tag="en-GB">languages/en-GB.com_rsgallery2.ini</language>
+		<language tag="es-ES">languages/es-ES.com_rsgallery2.ini</language>
+		<language tag="fa-IR">languages/fa-IR.com_rsgallery2.ini</language>
+		<language tag="fi-FI">languages/fi-FI.com_rsgallery2.ini</language>
+		<language tag="fr-FR">languages/fr-FR.com_rsgallery2.ini</language>
+		<language tag="he-IL">languages/he-IL.com_rsgallery2.ini</language>
+		<language tag="hr-HR">languages/hr-HR.com_rsgallery2.ini</language>
+		<language tag="hu-HU">languages/hu-HU.com_rsgallery2.ini</language>
+		<language tag="it-IT">languages/it-IT.com_rsgallery2.ini</language>
+		<language tag="nb-NO">languages/nb-NO.com_rsgallery2.ini</language>
+		<language tag="nl-NL">languages/nl-NL.com_rsgallery2.ini</language>
+		<language tag="pt-BR">languages/pt-BR.com_rsgallery2.ini</language>
+		<language tag="sl-SI">languages/sl-SI.com_rsgallery2.ini</language>
+		<language tag="tr-TR">languages/tr-TR.com_rsgallery2.ini</language>
+		<!-- Note: .sys.ini for menu and install-->
+		<language tag="da-DK">admin/language/da-DK/da-DK.com_rsgallery2.sys.ini</language>
+		<language tag="de-DE">admin/language/de-DE/de-DE.com_rsgallery2.sys.ini</language>
+		<language tag="el-GR">admin/language/el-GR/el-GR.com_rsgallery2.sys.ini</language>
+		<language tag="en-GB">admin/language/en-GB/en-GB.com_rsgallery2.sys.ini</language>
+		<language tag="es-ES">admin/language/es-ES/es-ES.com_rsgallery2.sys.ini</language>
+		<language tag="fa-IR">admin/language/fa-IR/fa-IR.com_rsgallery2.sys.ini</language>
+		<language tag="fi-FI">admin/language/fi-FI/fi-FI.com_rsgallery2.sys.ini</language>
+		<language tag="fr-FR">admin/language/fr-FR/fr-FR.com_rsgallery2.sys.ini</language>
+		<language tag="he-IL">admin/language/he-IL/he-IL.com_rsgallery2.sys.ini</language>
+		<language tag="hr-HR">admin/language/hr-HR/hr-HR.com_rsgallery2.sys.ini</language>
+		<language tag="hu-HU">admin/language/hu-HU/hu-HU.com_rsgallery2.sys.ini</language>
+		<language tag="it-IT">admin/language/it-IT/it-IT.com_rsgallery2.sys.ini</language>
+		<language tag="nb-NO">admin/language/nb-NO/nb-NO.com_rsgallery2.sys.ini</language>
+		<language tag="nl-NL">admin/language/nl-NL/nl-NL.com_rsgallery2.sys.ini</language>
+		<language tag="pt-BR">admin/language/pt-BR/pt-BR.com_rsgallery2.sys.ini</language>
+		<language tag="sl-SI">admin/language/sl-SI/sl-SI.com_rsgallery2.sys.ini</language>
+		<language tag="tr-TR">admin/language/tr-TR/tr-TR.com_rsgallery2.sys.ini</language>
+		</languages>
+  </administration>
+
+  <updateservers>
+	<!-- Note: No spaces or linebreaks allowed between the server tags -->
+	<!-- 
+	<server type="extension" priority="1" name="RSGallery2 Update Site">http://.../update/rsgallery2.xml</server>
+	on http://joomlacode.org/gf/project/embedchessboard/scmsvn/?action=browse&path=%2Ftrunk%2Fjoomla-1.6%2Fembedchessboard.xml&view=markup
+	it says
+	<server type="extension" priority="1" name="EmbedChessboard update site">http://anonymous:doesnotmatter@joomlacode.org/svn/embedchessboard/trunk/joomla-1.6-update</server>
+	</updateservers>
+ -->
+  </updateservers>  
+</extension>

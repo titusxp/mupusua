@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<install version="2.5" type="template" method="upgrade">
+	<name>hotel_3</name>
+	<creationDate>26/05/2013</creationDate>
+	<author>JoomSpirit</author>
+	<copyright>Creative Commons Attribution-ShareAlike 2.0</copyright>
+	<authorEmail>contact@joomspirit.com</authorEmail>
+	<authorUrl>http://www.joomspirit.com</authorUrl>
+	<version>1.0</version>
+	<description><![CDATA[ 
+	<script src="../templates/hotel_3/lib/js/jscolor/jscolor.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="../templates/hotel_3/css/admin.css" type="text/css" />
+	
+	<h2>IMPORTANT : Read the settings for this template</h2>
+	<p style="margin-top:14px;"><strong>All informations is in your manual. You must double click on the file manual.html</p>
+	<p>You will find in how to configure the template, use the typography and the module positions for your modules.</p>
+	]]></description>
+
+
+
+<files>
+<filename>favicon.ico</filename>
+<filename>index.html</filename>
+<filename>index.php</filename>
+<filename>params.ini</filename>
+<filename>template_thumbnail.png</filename>
+<folder>css</folder>
+<folder>html</folder>
+<folder>font</folder>
+<folder>images</folder>
+<folder>img</folder>
+<folder>lib</folder>
+</files>
+
+
+<positions>
+	<position>menu</position>
+	<position>left</position>
+	<position>right</position>
+	<position>top</position>
+	<position>bottom</position>
+	<position>search</position>
+	<position>bottom_menu</position>
+	<position>top_menu</position>
+	<position>logo</position>
+	<position>address</position>
+	<position>breadcrumb</position>
+	<position>newsflash</position>
+	<position>translate</position>
+	<position>user1</position>
+	<position>user2</position>
+	<position>user3</position>
+	<position>user4</position>
+	<position>user5</position>
+	<position>user6</position>
+	<position>user7</position>
+	<position>user8</position>
+	<position>user9</position>
+	<position>user10</position>
+	<position>user11</position>
+	<position>image</position>
+	<position>intro</position>
+</positions>
+
+
+<config>
+	<fields name="params">
+	
+		<fieldset name="01" label="Header">
+		
+				<field name="myimage" type="imagelist" default="grey.jpg" label="Select a background image for the header" description="You can add your own image in the folder 'images/background' of the template" directory="../templates/hotel_3/images/background" exclude="" stripext="" />
+				
+				<field type="spacer" />
+				
+				<field name="title_position" type="list" default="left" label="Position of your website title" description="" >
+					<option value="left">On the left side</option>			
+					<option value="above">Above the module image and centered</option>
+				</field>
+
+				<field name="width_left_side" type="text" default="360px" size="10" label="Width of left side (for logo and module Intro ) in px or %" description="Enter the width for your module Image in px or %. Default : 300px" />
+				
+				<field type="spacer" />
+
+				<field name="website_title" type="text" default="" size="20" label="Website title" description="" />
+				<field name="website_title_color" class="color {required:false}" type="text" default="ffffff" size="10" label="Color of website title" description="Hexadecimal code color . default : ffffff " />
+				
+				<field name="font_title" type="list" default="UmbrageRegular" label="Font for your website title" description="">
+					<option value="Marvel">Marvel</option>
+					<option value="open_sansregular">Open sans regular</option>
+					<option value="open_sanslight">Open sans light</option>
+					<option value="open_sanscondensed">Open sans condensed</option>
+					<option value="walkway">Walkway</option>
+					<option value="Gnuolane">Gnuolane</option>
+					<option value="zachary">Zachary</option>
+					<option value="UmbrageRegular">Umbrage</option>
+					<option value="Trebuchet">Trebuchet</option>
+					<option value="Arial">arial</option>
+					<option value="Georgia">Georgia</option>
+					<option value="Times">Times</option>
+					<option value="Verdana">Verdana</option>
+					<option value="Tahoma">Tahoma</option>
+				</field>
+				
+				<field name="website_title_shadow" type="list" default="dark_shadow" label="Shadow around the website title" description="" >
+					<option value="dark_shadow">Dark shadow</option>			
+					<option value="light_shadow">Light shadow</option>
+					<option value="no_shadow">None</option>
+				</field>
+
+				<field type="spacer" />
+				
+				<field name="intro_color" class="color {required:false}" type="text" default="ffffff" size="10" label="Color of text for module Intro" description="Hexadecimal code color . default : ffffff " />
+				
+				<field name="intro_shadow" type="list" default="dark_shadow" label="Shadow around the intro text" description="" >
+					<option value="dark_shadow">Dark shadow</option>			
+					<option value="light_shadow">Light shadow</option>
+					<option value="no_shadow">None</option>
+				</field>
+				
+				<field type="spacer" />
+
+				<field name="top_menu_color" class="color {required:false}" type="text" default="ffffff" size="10" label="Color of top_menu item" description="Hexadecimal code color . default : ffffff " />
+
+				<field name="top_menu_shadow" type="list" default="dark_shadow" label="Shadow around the top menu item" description="" >
+					<option value="dark_shadow">Dark shadow</option>			
+					<option value="light_shadow">Light shadow</option>
+					<option value="no_shadow">None</option>
+				</field>		
+		
+		</fieldset>
+		
+
+		<fieldset name="02" label="Website width">
+		
+				<field name="width" type="text" default="980" size="10" label="Width of your website in px" description="Enter the width for your website in px. Default : 980" />
+										
+				<field name="width_left" type="text" default="196px" size="10" label="Width of left column in px or %" description="Enter the width for your left column in px or % . Default : 196px" />
+				<field name="width_right" type="text" default="196px" size="10" label="Width of right column in px or %" description="Enter the width for your right column in px or % . Default : 196px" />
+				
+				<field type="spacer" />
+				
+				<field name="user1_width" type="text" default="33" size="10" label="Width of user1 in percentage" description="Enter the width for user1  in percentage. Default : 33" />
+				<field name="user3_width" type="text" default="33" size="10" label="Width of user3 in percentage" description="Enter the width for user3  in percentage. Default : 33" />
+				<field name="user4_width" type="text" default="33" size="10" label="Width of user4 in percentage" description="Enter the width for user4  in percentage. Default : 33" />
+				<field name="user6_width" type="text" default="33" size="10" label="Width of user6 in percentage" description="Enter the width for user6  in percentage. Default : 33" />
+				<field name="user7_width" type="text" default="33" size="10" label="Width of user7 in percentage" description="Enter the width for user7  in percentage. Default : 33" />
+				<field name="user9_width" type="text" default="33" size="10" label="Width of user9 in percentage" description="Enter the width for user9  in percentage. Default : 33" />
+		
+		</fieldset>
+		
+
+		<fieldset name="03" label="Main menu">
+
+				<field name="drop_down_menu" type="list" default="yes" label="Drop down menu fixed or not" description="I recommend you to disable this option if the width of your menu is bigger of 980 pixels " >
+					<option value="yes">Fixed</option>			
+					<option value="no">Not fixed</option>
+				</field>
+				
+				<field name="width_item" type="text" default="196" size="10" label="Width of each item menu in pixels" description="default : 196" />
+				
+				<field name="text_menu" type="text" default="menu" size="10" label="Text in the menu button (small screen)" description="Only in small screen with Responsive feature enable. default : menu" />
+	
+		</fieldset>
+		
+
+		<fieldset name="04" label="Color">
+						
+				<field name="colorh2" class="color {required:false}" type="text" default="006d98" label="Color for title H2" description="Please set the color for article title H2. Default : 006d98 " />
+
+				<field name="color_link" class="color {required:false}" type="text" default="c35d1e" label="Color for title your links" description="Please set the color for your links. Default : c35d1e " />
+		
+		</fieldset>
+
+		<fieldset name="05" label="Font">
+
+				<field name="font" type="list" default="Marvel" label="Font for your menu and article title" description="">
+					<option value="Marvel">Marvel</option>
+					<option value="open_sansregular">Open sans regular</option>
+					<option value="open_sanscondensed">Open sans condensed</option>
+					<option value="walkway">Walkway</option>
+					<option value="Gnuolane">Gnuolane</option>
+					<option value="zachary">Zachary</option>
+					<option value="UmbrageRegular">Umbrage</option>
+					<option value="Trebuchet">Trebuchet</option>
+					<option value="Arial">arial</option>
+					<option value="Georgia">Georgia</option>
+					<option value="Times">Times</option>
+					<option value="Verdana">Verdana</option>
+					<option value="Tahoma">Tahoma</option>
+				</field>
+				
+				<field name="font_content" type="list" default="Trebuchet" label="Font for your content" description="">
+					<option value="Trebuchet">Trebuchet</option>
+					<option value="Arial">arial</option>
+					<option value="Georgia">Georgia</option>
+					<option value="Times">Times new roman</option>
+					<option value="Verdana">Verdana</option>
+					<option value="Tahoma">Tahoma</option>
+				</field>
+				
+				<field type="spacer" />
+			
+				<field name="fontSize" type="list" default="0.85em" label="Default font size" description="">
+					<option value="0.70em">smallest +</option>
+					<option value="0.75em">smallest</option>
+					<option value="0.80em">small</option>
+					<option value="0.85em">normal</option>
+					<option value="0.90em">big</option>
+					<option value="0.95em">biggest</option>
+					<option value="1.00em">biggest +</option>
+				</field>
+		
+		</fieldset>
+	
+	
+		<fieldset name="06" label="Social icons">
+			
+				<field name="text_social_icons" type="text" default="" label="Text before your social icons" description=" " />
+				
+				<field type="spacer" />
+				
+				<field name="twitter" type="text" default="" size="30" label="Twitter URL " description="" />
+				<field name="blogger" type="text" default="" size="30" label="Blogger URL " description="" />
+				<field name="facebook" type="text" default="" size="30" label="Facebook URL " description="" />
+				<field name="rss" type="text" default="" size="30" label="RSS URL " description="" />
+				<field name="linkedin" type="text" default="" size="30" label="Linkedin URL " description="" />
+				<field name="myspace" type="text" default="" size="30" label="MySpace URL " description="" />
+				<field name="delicious" type="text" default="" size="30" label="Delicious URL " description="" />
+				<field name="flickr" type="text" default="" size="30" label="Flickr URL " description="" />
+				<field name="youtube" type="text" default="" size="30" label="Youtube URL " description="" />
+				<field name="vimeo" type="text" default="" size="30" label="Vimeo URL " description="" />
+				<field name="yahoo" type="text" default="" size="30" label="Yahoo Messenger URL " description="" />
+				<field name="digg" type="text" default="" size="30" label="Digg URL " description="" />
+				<field name="picasa" type="text" default="" size="30" label="Picasa URL " description="" />
+				<field name="stumbleupon" type="text" default="" size="30" label="Stumbleupon URL " description="" />
+				<field name="technorati" type="text" default="" size="30" label="Technorati URL " description="" />
+				<field name="tumblr" type="text" default="" size="30" label="Tumblr URL " description="" />
+			
+				<field name="google1" type="list" default="no" label="Enable Google +1 icon" description="">
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+		
+		</fieldset>
+		
+	
+		<fieldset name="07" label="Responsive design">
+				
+				<field name="responsive" type="list" default="yes" label="Enable responsive feature" description="The design change when the screen resolution is less of 980 pixels : better for mobile devices">				
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+				
+				<field name="column_responsive" type="list" default="yes" label="Display left and right column under the content in small resolution" description="Disable this option if you use a javascript animation in your column.">				
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+		
+		</fieldset>
+
+		
+		<fieldset name="08" label="Bootstrap and Jquery">
+			
+				<field name="bootstrap" type="list" default="no" label="Load Bootstrap 2.1.1" description="Disable this option if you doesn't the extra features of Bootstrap">					
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+
+				<field name="bootstrap_js" type="list" default="no" label="Load Bootstrap javascript" description="Disable this option if the website load another version of Bootstrap or if you don't use Bootstrap animation">					
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+				
+				<field name="jquery" type="list" default="no" label="Load Jquery 1.8.1" description="Disable this option only if the website load a more recent version of Jquery or if you don't use Bootstrap animation">					
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+		
+		</fieldset>
+
+		
+		<fieldset name="09" label="Google analytics tracking code">
+							
+				<field name="google_code" type="textarea" rows="6" cols="40" default="" label="Paste your tracking code" description="" />				
+				
+		</fieldset>
+		
+	
+	</fields>		
+
+</config>
+
+</install>

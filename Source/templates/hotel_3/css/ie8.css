@@ -1,0 +1,51 @@
+/*****************************************
+		SITE  IE8-
+******************************************/
+
+div.mod-languages ul.lang-inline li {
+display:inline-block;
+}
+
+/** 	Resize images 		**/
+
+img, embed, object, video, .scale {
+/* IE7-8 need help adjusting responsive images */
+width: auto;
+}
+
+
+/** 	MENUS 		**/
+
+.drop-down > ul > li:hover > a, .drop-down > ul > li:hover > span, .drop-down > ul > li.active > a, .drop-down > ul > li.active > span {
+background : transparent url(../images/bg-menu-active.png) 0 0 repeat;
+}
+
+.drop-down ul ul {
+border:1px solid #aaa;
+border-top:none;
+}
+
+.drop-down ul ul ul {
+border:1px solid #aaa;
+}
+
+
+.horizontal_menu li a, .horizontal_menu li span.separator {
+border:1px solid transparent;
+}
+
+.horizontal_menu li.active a, .horizontal_menu li:hover a {
+border:1px solid #ddd;
+}
+
+
+/** 	Form 		**/
+
+input[type="submit"], button, .readmore a {
+padding : 2px 8px;
+border : 1px solid #ddd;
+}
+
+input[type="submit"]:hover, button:hover, .readmore a:hover {
+border-color:#d2d2d2;
+}

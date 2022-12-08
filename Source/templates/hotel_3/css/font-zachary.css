@@ -1,0 +1,13 @@
+/**	font face	**/
+
+@font-face {
+    font-family: 'zachary';
+    src: url('../font/zachary-webfont.eot');
+    src: url('../font/zachary-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/zachary-webfont.woff') format('woff'),
+         url('../font/zachary-webfont.ttf') format('truetype'),
+         url('../font/zachary-webfont.svg#zacharynormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

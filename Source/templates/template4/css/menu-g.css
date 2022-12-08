@@ -1,0 +1,260 @@
+
+/*  Copyright:  (C) 08.2008 joomla-best.com. All Rights Reserved.
+//  License:	Copyrighted Commercial Software 
+//  Website: 	http://www.joomla-best.com
+*/
+
+/* Ustawienia menu suckerfish */
+
+/* Ustawienia globalne menu */
+
+#cen8 {
+    text-align: left;
+	margin: 0px 0 0 0px;
+	background: url(../images/tlomenu.png) 10px repeat-x;
+	border: 0px solid #dddddd;
+	z-index: 3;
+	/*height: 50px;*/
+}
+
+#mtmenu {
+	padding: 5px 0px 0px 20px;
+	/*background: url(../images/tlomenu.png) repeat-x;*/
+	border: 0px solid #ff0000;
+	height: 35px;
+	float: left;
+	list-style: none;
+	margin: 0px;
+	z-index: 99;
+}
+
+#mtmenu ul {
+	padding: 0px;
+	margin: 0px;
+	height: 35px;
+	float: left;
+	list-style: none;
+}
+
+#mtmenu ul li {
+	position: relative;
+}
+
+#mtmenu li ul {
+	z-index: 99;
+	top: 49px;
+	position: absolute;
+	left: -999em;
+	height: auto;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#mtmenu li li {
+	float: left;
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+	height: 35px;
+ 	width: 181px;
+}
+ 	
+#mtmenu li ul ul {
+	margin: -40px 0px 0px 181px;
+}
+
+#mtmenu ul ul li.active {
+
+}
+
+#mtmenu ul ul {
+	width: 182px;
+	background: #f9c1a1 url(../images/tlomenut.gif) repeat-x top left;
+	border-left: 0px solid #f4f5f4;
+	border-right: 0px solid #f4f5f4;
+	z-index: 99;
+}
+
+
+#mtmenu ul ul a {
+	display: block;
+	text-decoration: none;
+	width: 150px;	
+}
+	
+#mtmenu ul ul ul{
+	width: 182px;
+	background: #f9c1a1 url(../images/tlomenut.gif) repeat-x top left;
+	border-left: 0px solid #f4f5f4;
+	border-right: 0px solid #f4f5f4;
+	border-bottom: 0px solid #f4f5f4;
+}
+
+#mtmenu li:hover ul ul, 
+#mtmenu li:hover ul ul ul,
+#mtmenu li:hover ul ul ul ul,  
+#mtmenu li.sfhover ul ul, 
+#mtmenu li.sfhover ul ul ul, 
+#mtmenu li.sfhover ul ul ul ul {
+	position: absolute;
+	left: -999em;
+}
+
+#mtmenu li:hover ul, 
+#mtmenu li li:hover ul, 
+#mtmenu li li li:hover ul, 
+#mtmenu li li li li:hover ul,
+#mtmenu li.sfhover ul, 
+#mtmenu li li.sfhover ul, 
+#mtmenu li li li.sfhover ul,
+#mtmenu li li li li.sfhover ul {
+	position: absolute;
+	left: 0em; 
+}
+	
+/* Strzalki podmenu */
+
+#mtmenu li li.parent a.daddy,
+#mtmenu li.active li.parent a.daddy {
+	background: url(../images/arrowm.png) center right no-repeat;
+}
+
+#mtmenu li li.parent:hover a.daddy,
+#mtmenu li.active li.parent:hover a.daddy,
+#mtmenu li li.parent-sfHover a.daddy,
+#mtmenu li.active li.parent-sfHover a.daddy {
+	background: url(../images/arrowm.png) center right no-repeat;
+}
+
+/* pierwszy poziom */
+
+#mtmenu a {
+	float: left;
+	text-decoration: none;
+	display: block;
+	/*font-size: 12px;*/
+	cursor: pointer;
+	height: 35px;
+	line-height: 35px;
+	padding: 0px 15px 0px 15px;
+	overflow: hidden;
+	color: #888888;
+	background: url(../images/typografia/cir-g.png) 0px 12px no-repeat;
+	/*background: #444444 url(../images/1tlomenu.png) repeat-x top;*/
+}
+
+#mtmenu li {
+	float: left;
+	font-size: 15px;
+	padding-left: 0px;
+	height: 50px;
+	background: url(../images/typografia/cir-y.png) 0px 12px no-repeat;
+	z-index: 99;
+	border-left: 0px solid #a0abb2;
+}
+
+#mtmenu li:hover {
+	background: url(../images/typografia/cir-y.png) 0px 12px no-repeat;
+	color: #41a602;
+}
+
+#mtmenu a:hover {
+	color: #41a602;
+	background: url(../images/typografia/cir-y.png) 0px 12px no-repeat;
+}
+
+#mtmenu li.parent:hover {
+	background: url(../images/typografia/cir-y.png) 0px 12px no-repeat;
+}
+
+#mtmenu li.active a {
+	background: url(../images/typografia/cir-y.png) 0px 12px no-repeat;
+	color: #41a602;
+}
+
+#mtmenu li.active {
+	background: url(../images/typografia/cir-y.png) 0px 12px no-repeat;
+	color: #41a602;
+}
+
+#mtmenu li.active.parent:hover {
+	background: url(../images/typografia/cir-y.png) 0px 12px no-repeat;
+}
+
+#mtmenu li.active:hover a {
+	background: url(../images/typografia/cir-y.png) 0px 12px no-repeat;
+}
+
+
+
+#mtmenu li.active.parent:hover a,
+#mtmenu li.active.parent.sfHover a,
+#mtmenu li.active.sfHover a,
+#mtmenu li.sfHover a,
+#mtmenu li.sfHover.active a,
+#mtmenu li.active:hover,
+#mtmenu li.active.parent.sfHover,
+#mtmenu li.active.sfHover,
+#mtmenu li a:active,
+#mtmenu li.parent.sfHover,
+#mtmenu li li a:hover,
+#mtmenu li.active li a:hover {
+	background: none;
+}
+
+/* Nastepne poziomy */
+
+#mtmenu li li {
+	padding: 0px;
+	background: #d87540;
+}
+
+#mtmenu li li a:hover {
+	color: #41a602;
+}
+
+#mtmenu li li a:active {
+	color: #41a602;
+}
+
+#mtmenu li li, 
+#mtmenu li:hover li,
+#mtmenu li.sfHover li,
+#mtmenu li.parent:hover li,
+#mtmenu li.parent.sfHover li,
+#mtmenu li.active.parent:hover li,
+#mtmenu li.active.parent.sfHover li {
+	border-bottom: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+	background: none;
+}
+
+#mtmenu li li a,
+#mtmenu li.active li a,
+#mtmenu li.active.parent.sfHover a,
+#mtmenu li.active-sfHover a,
+#mtmenu li.active.sfHover li a,
+#mtmenu li.active-sfHover li a {
+	border-top: 1px solid #dddddd;
+	background: none;
+}
+
+/* dla IE */
+
+#mtmenu li.active {
+	color: #41a602;
+	background: url(../images/1tlomenua.gif) no-repeat right;
+}
+
+#mtmenu li li.active {
+	color: #41a602;
+	background: none;
+}
+
+#mtmenu li li li.active {
+	color: #41a602;
+	background: none;
+}

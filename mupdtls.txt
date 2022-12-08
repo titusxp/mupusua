@@ -1,0 +1,33 @@
+mupusua details
+
+login: mupusua
+pass: m494547
+
+
+
+mail
+
+titus@mupusua.org
+tmupusua
+
+info@mupusua.org
+mupusua5taff
+
+ndametom@mupusua.org
+ndamem49
+
+miraepede@mupusua.org
+miram49
+
+
+
+admin
+titusxp
+titusxp
+
+
+
+db
+db: mupusua_main
+user:mupusua_ndame
+pass: m494542
